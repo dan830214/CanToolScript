@@ -1,0 +1,6 @@
+ *   Std_ReturnType Rte_Read_AlvCtr_ZCUF_Clamp_Info_AlvCtr_ZCUF_Clamp_Info(AlvCtr_ZCUF_Clamp_Info *data)
+ *   Std_ReturnType Rte_Read_CRC_ZCUF_Clamp_Info_CRC_ZCUF_Clamp_Info(CRC_ZCUF_Clamp_Info *data)
+ *   Std_ReturnType Rte_Read_Clmmg_CL15_L_Clmmg_CL15_L(Clmmg_CL15_L *data)
+ *   Std_ReturnType Rte_Read_Clmmg_CL30S_L_Clmmg_CL30S_L(Clmmg_CL30S_L *data)
+ *   Std_ReturnType Rte_Read_Clmmg_VehSt_Clmmg_VehSt(Clmmg_VehSt *data)
+ *   Std_ReturnType Rte_Read_Lvm_LoaShedReq_Lvm_LoaShedReq(Lvm_LoaShedReq *data)

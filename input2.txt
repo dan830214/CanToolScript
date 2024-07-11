@@ -1,0 +1,5 @@
+*   Std_ReturnType Rte_Read_AirBg_PassAirbgDeacSts_AirBg_PassAirbgDeacSts(AirBg_PassAirbgDeacSts *data)
+ *   Std_ReturnType Rte_Read_AirBg_SeatTrackPosDrvr_AirBg_SeatTrackPosDrvr(AirBg_SeatTrackPosDrvr *data)
+ *   Std_ReturnType Rte_Read_AirBg_SeatTrackPosPass_AirBg_SeatTrackPosPass(AirBg_SeatTrackPosPass *data)
+ *   Std_ReturnType Rte_Read_AlvCtr_ACM_ActvTrackingStatus_AlvCtr_ACM_ActvTrackingStatus(AlvCtr_ACM_ActvTrackingStatus *data)
+ *   Std_ReturnType Rte_Read_CRC_ACM_ActvTrackingStatus_CRC_ACM_ActvTrackingStatus(CRC_ACM_ActvTrackingStatus *data)

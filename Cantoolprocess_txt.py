@@ -2,7 +2,7 @@ import os
 import re
 
 global_workspacename = "I1_CAN_FD_VER02_01_01_MY_ECU_2"
-special_strings = ["CRC", "ZCUF", "CL30", "CL15", "DCFC", "BMS", "CCu", "ACM"]
+special_strings = ["CRC", "ZCUF", "CL30", "CL15", "DCFC", "BMS", "CCu", "ACM", "ASU", "ADAS", "FL", "FR", "RR", "RL", "CCU", "DCDC", "DCMD", "DCMP"]
 global_msg_name = ""
 
 def process_line1(line):
@@ -58,7 +58,7 @@ def process_line4(line):
         content = match.group(1).strip()
         string = convert_string(content)
         msg_name = convert_string(global_msg_name)
-        return f"{msg_name.lower()}.{string.lower()} = (uint8){content}_Data;"
+        return f"{msg_name.lower()}.{string.lower()} = ({content}){content}_Data;"
     return None
 
 def process_line5(line):
@@ -73,11 +73,11 @@ if ({global_workspacename.lower()}_{msg_name.lower()}_pack(dataArray, &{msg_name
     memcpy(&u8arrayTx[INDEX_CAN_DATA], dataArray, {global_workspacename}_{msg_name.upper()}_LENGTH);
     
 uint32 crc_sum;
-crc_sum = FlexCanApp_Calc_Crc32_test(&u8arrayTx, u8arrayTx[INDEX_APSS_LEN], 0);
-u8arrayTx[u8arrayTx[INDEX_APSS_LEN]] = (uint8_t)((crc_sum & 0xFF000000) >> 24);
-u8arrayTx[u8arrayTx[INDEX_APSS_LEN] + 1] = (uint8_t)((crc_sum & 0x00FF0000) >> 16);
-u8arrayTx[u8arrayTx[INDEX_APSS_LEN] + 2] = (uint8_t)((crc_sum & 0x0000FF00) >> 8);
-u8arrayTx[u8arrayTx[INDEX_APSS_LEN] + 3] = (uint8_t)(crc_sum & 0x000000FF);
+crc_sum = FlexCanApp_Calc_Crc32_test(&u8arrayTx, {global_workspacename}_{msg_name.upper()}_LENGTH + 10, 0);
+u8arrayTx[{global_workspacename}_{msg_name.upper()}_LENGTH + INDEX_CAN_DLC + 1] = (uint8_t)((crc_sum & 0xFF000000) >> 24);
+u8arrayTx[{global_workspacename}_{msg_name.upper()}_LENGTH + INDEX_CAN_DLC + 2] = (uint8_t)((crc_sum & 0x00FF0000) >> 16);
+u8arrayTx[{global_workspacename}_{msg_name.upper()}_LENGTH + INDEX_CAN_DLC + 3] = (uint8_t)((crc_sum & 0x0000FF00) >> 8);
+u8arrayTx[{global_workspacename}_{msg_name.upper()}_LENGTH + INDEX_CAN_DLC + 4] = (uint8_t)(crc_sum & 0x000000FF);
 
 Rte_Call_IF_IOHw_SPI_API_IoHwAbOperation_Communication(Master_To_APSS, &u8arrayTx, &u8arrayRx, APSS_NUM);
 *Rte_Pim_MsgAlvCounter() = *Rte_Pim_MsgAlvCounter() + 1;

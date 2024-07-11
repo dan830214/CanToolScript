@@ -1,48 +1,72 @@
-AirBg_PassAirbgDeacSts AirBg_PassAirbgDeacSts_Data;
-AirBg_SeatTrackPosDrvr AirBg_SeatTrackPosDrvr_Data;
-AirBg_SeatTrackPosPass AirBg_SeatTrackPosPass_Data;
-AlvCtr_ACM_ActvTrackingStatus AlvCtr_ACM_ActvTrackingStatus_Data;
-CRC_ACM_ActvTrackingStatus CRC_ACM_ActvTrackingStatus_Data;
+AlvCtr_CCU_ClimSys_Sts AlvCtr_CCU_ClimSys_Sts_Data;
+CRC_CCU_ClimSys_Sts CRC_CCU_ClimSys_Sts_Data;
+Ccsf_AirModeSelnFb Ccsf_AirModeSelnFb_Data;
+Ccsf_AirQlyIdx Ccsf_AirQlyIdx_Data;
+Ccsf_CenLeVenDirSts Ccsf_CenLeVenDirSts_Data;
+Ccsf_CenRiVenDirSts Ccsf_CenRiVenDirSts_Data;
+Ccsf_Co2Lvl Ccsf_Co2Lvl_Data;
+Ccsf_DrvrDemistRcmn Ccsf_DrvrDemistRcmn_Data;
+Ccsf_FrntBlowrLvlFb Ccsf_FrntBlowrLvlFb_Data;
+Ccsf_IoniserOnOffSts Ccsf_IoniserOnOffSts_Data;
+Ccsf_RclFlapPos Ccsf_RclFlapPos_Data;
+Ccsf_RclModFb Ccsf_RclModFb_Data;
+Ccsr_ReBlowrLvlFb Ccsr_ReBlowrLvlFb_Data;
 
-Rte_Read_AirBg_PassAirbgDeacSts_AirBg_PassAirbgDeacSts(&AirBg_PassAirbgDeacSts_Data);
-Rte_Read_AirBg_SeatTrackPosDrvr_AirBg_SeatTrackPosDrvr(&AirBg_SeatTrackPosDrvr_Data);
-Rte_Read_AirBg_SeatTrackPosPass_AirBg_SeatTrackPosPass(&AirBg_SeatTrackPosPass_Data);
-Rte_Read_AlvCtr_ACM_ActvTrackingStatus_AlvCtr_ACM_ActvTrackingStatus(&AlvCtr_ACM_ActvTrackingStatus_Data);
-Rte_Read_CRC_ACM_ActvTrackingStatus_CRC_ACM_ActvTrackingStatus(&CRC_ACM_ActvTrackingStatus_Data);
+Rte_Read_AlvCtr_CCU_ClimSys_Sts_AlvCtr_CCU_ClimSys_Sts(&AlvCtr_CCU_ClimSys_Sts_Data);
+Rte_Read_CRC_CCU_ClimSys_Sts_CRC_CCU_ClimSys_Sts(&CRC_CCU_ClimSys_Sts_Data);
+Rte_Read_Ccsf_AirModeSelnFb_Ccsf_AirModeSelnFb(&Ccsf_AirModeSelnFb_Data);
+Rte_Read_Ccsf_AirQlyIdx_Ccsf_AirQlyIdx(&Ccsf_AirQlyIdx_Data);
+Rte_Read_Ccsf_CenLeVenDirSts_Ccsf_CenLeVenDirSts(&Ccsf_CenLeVenDirSts_Data);
+Rte_Read_Ccsf_CenRiVenDirSts_Ccsf_CenRiVenDirSts(&Ccsf_CenRiVenDirSts_Data);
+Rte_Read_Ccsf_Co2Lvl_Ccsf_Co2Lvl(&Ccsf_Co2Lvl_Data);
+Rte_Read_Ccsf_DrvrDemistRcmn_Ccsf_DrvrDemistRcmn(&Ccsf_DrvrDemistRcmn_Data);
+Rte_Read_Ccsf_FrntBlowrLvlFb_Ccsf_FrntBlowrLvlFb(&Ccsf_FrntBlowrLvlFb_Data);
+Rte_Read_Ccsf_IoniserOnOffSts_Ccsf_IoniserOnOffSts(&Ccsf_IoniserOnOffSts_Data);
+Rte_Read_Ccsf_RclFlapPos_Ccsf_RclFlapPos(&Ccsf_RclFlapPos_Data);
+Rte_Read_Ccsf_RclModFb_Ccsf_RclModFb(&Ccsf_RclModFb_Data);
+Rte_Read_Ccsr_ReBlowrLvlFb_Ccsr_ReBlowrLvlFb(&Ccsr_ReBlowrLvlFb_Data);
 
 u8arrayTx[INDEX_APSS_CMD] = (uint8)APSS_WRITE_CMD;
-u8arrayTx[INDEX_APSS_LEN] = (uint8)(I1_CAN_FD_VER02_01_01_MY_ECU_2_ACM_ACTV_TRACKING_STATUS_LENGTH + 10);
+u8arrayTx[INDEX_APSS_LEN] = (uint8)(I1_CAN_FD_VER02_01_01_MY_ECU_2_CCU_CLIM_SYS_STS_LENGTH + 10);
 u8arrayTx[INDEX_APSS_SEQ] = (uint8)((*Rte_Pim_MsgAlvCounter() & 0xFF00) >> 8);
 u8arrayTx[INDEX_APSS_SEQ + 1] = (uint8)(*Rte_Pim_MsgAlvCounter() & 0x00FF);
 u8arrayTx[INDEX_CAN_IF] = (uint8)(CAN_I1_Channel);
-// u8arrayTx[INDEX_CAN_MSGID] = (uint8)((I1_CAN_FD_VER02_01_01_MY_ECU_2_ACM_ACTV_TRACKING_STATUS_FRAME_ID & 0xFF000000) >> 24);
-// u8arrayTx[INDEX_CAN_MSGID + 1] = (uint8)((I1_CAN_FD_VER02_01_01_MY_ECU_2_ACM_ACTV_TRACKING_STATUS_FRAME_ID & 0x00FF0000) >> 16);
-// u8arrayTx[INDEX_CAN_MSGID + 2] = (uint8)((I1_CAN_FD_VER02_01_01_MY_ECU_2_ACM_ACTV_TRACKING_STATUS_FRAME_ID & 0x0000FF00) >> 8);
-// u8arrayTx[INDEX_CAN_MSGID + 3] = (uint8)(I1_CAN_FD_VER02_01_01_MY_ECU_2_ACM_ACTV_TRACKING_STATUS_FRAME_ID & 0x000000FF);
-u8arrayTx[INDEX_CAN_MSGID + 3] = (uint8)((I1_CAN_FD_VER02_01_01_MY_ECU_2_ACM_ACTV_TRACKING_STATUS_FRAME_ID & 0xFF000000) >> 24);
-u8arrayTx[INDEX_CAN_MSGID + 2] = (uint8)((I1_CAN_FD_VER02_01_01_MY_ECU_2_ACM_ACTV_TRACKING_STATUS_FRAME_ID & 0x00FF0000) >> 16);
-u8arrayTx[INDEX_CAN_MSGID + 1] = (uint8)((I1_CAN_FD_VER02_01_01_MY_ECU_2_ACM_ACTV_TRACKING_STATUS_FRAME_ID & 0x0000FF00) >> 8);
-u8arrayTx[INDEX_CAN_MSGID] = (uint8)(I1_CAN_FD_VER02_01_01_MY_ECU_2_ACM_ACTV_TRACKING_STATUS_FRAME_ID & 0x000000FF);
-u8arrayTx[INDEX_CAN_DLC] = (uint8)(I1_CAN_FD_VER02_01_01_MY_ECU_2_ACM_ACTV_TRACKING_STATUS_LENGTH);
+// u8arrayTx[INDEX_CAN_MSGID] = (uint8)((I1_CAN_FD_VER02_01_01_MY_ECU_2_CCU_CLIM_SYS_STS_FRAME_ID & 0xFF000000) >> 24);
+// u8arrayTx[INDEX_CAN_MSGID + 1] = (uint8)((I1_CAN_FD_VER02_01_01_MY_ECU_2_CCU_CLIM_SYS_STS_FRAME_ID & 0x00FF0000) >> 16);
+// u8arrayTx[INDEX_CAN_MSGID + 2] = (uint8)((I1_CAN_FD_VER02_01_01_MY_ECU_2_CCU_CLIM_SYS_STS_FRAME_ID & 0x0000FF00) >> 8);
+// u8arrayTx[INDEX_CAN_MSGID + 3] = (uint8)(I1_CAN_FD_VER02_01_01_MY_ECU_2_CCU_CLIM_SYS_STS_FRAME_ID & 0x000000FF);
+u8arrayTx[INDEX_CAN_MSGID + 3] = (uint8)((I1_CAN_FD_VER02_01_01_MY_ECU_2_CCU_CLIM_SYS_STS_FRAME_ID & 0xFF000000) >> 24);
+u8arrayTx[INDEX_CAN_MSGID + 2] = (uint8)((I1_CAN_FD_VER02_01_01_MY_ECU_2_CCU_CLIM_SYS_STS_FRAME_ID & 0x00FF0000) >> 16);
+u8arrayTx[INDEX_CAN_MSGID + 1] = (uint8)((I1_CAN_FD_VER02_01_01_MY_ECU_2_CCU_CLIM_SYS_STS_FRAME_ID & 0x0000FF00) >> 8);
+u8arrayTx[INDEX_CAN_MSGID] = (uint8)(I1_CAN_FD_VER02_01_01_MY_ECU_2_CCU_CLIM_SYS_STS_FRAME_ID & 0x000000FF);
+u8arrayTx[INDEX_CAN_DLC] = (uint8)(I1_CAN_FD_VER02_01_01_MY_ECU_2_CCU_CLIM_SYS_STS_LENGTH);
 
-struct i1_can_fd_ver02_01_01_my_ecu_2_acm_actv_tracking_status_t acm_actv_tracking_status;
+struct i1_can_fd_ver02_01_01_my_ecu_2_ccu_clim_sys_sts_t ccu_clim_sys_sts;
 
-acm_actv_tracking_status.air_bg_pass_airbg_deac_sts = (uint8)AirBg_PassAirbgDeacSts_Data;
-acm_actv_tracking_status.air_bg_seat_track_pos_drvr = (uint8)AirBg_SeatTrackPosDrvr_Data;
-acm_actv_tracking_status.air_bg_seat_track_pos_pass = (uint8)AirBg_SeatTrackPosPass_Data;
-acm_actv_tracking_status.alv_ctr_acm_actv_tracking_status = (uint8)AlvCtr_ACM_ActvTrackingStatus_Data;
-acm_actv_tracking_status.crc_acm_actv_tracking_status = (uint8)CRC_ACM_ActvTrackingStatus_Data;
+ccu_clim_sys_sts.alv_ctr_ccu_clim_sys_sts = (AlvCtr_CCU_ClimSys_Sts)AlvCtr_CCU_ClimSys_Sts_Data;
+ccu_clim_sys_sts.crc_ccu_clim_sys_sts = (CRC_CCU_ClimSys_Sts)CRC_CCU_ClimSys_Sts_Data;
+ccu_clim_sys_sts.ccsf_air_mode_seln_fb = (Ccsf_AirModeSelnFb)Ccsf_AirModeSelnFb_Data;
+ccu_clim_sys_sts.ccsf_air_qly_idx = (Ccsf_AirQlyIdx)Ccsf_AirQlyIdx_Data;
+ccu_clim_sys_sts.ccsf_cen_le_ven_dir_sts = (Ccsf_CenLeVenDirSts)Ccsf_CenLeVenDirSts_Data;
+ccu_clim_sys_sts.ccsf_cen_ri_ven_dir_sts = (Ccsf_CenRiVenDirSts)Ccsf_CenRiVenDirSts_Data;
+ccu_clim_sys_sts.ccsf_co2_lvl = (Ccsf_Co2Lvl)Ccsf_Co2Lvl_Data;
+ccu_clim_sys_sts.ccsf_drvr_demist_rcmn = (Ccsf_DrvrDemistRcmn)Ccsf_DrvrDemistRcmn_Data;
+ccu_clim_sys_sts.ccsf_frnt_blowr_lvl_fb = (Ccsf_FrntBlowrLvlFb)Ccsf_FrntBlowrLvlFb_Data;
+ccu_clim_sys_sts.ccsf_ioniser_on_off_sts = (Ccsf_IoniserOnOffSts)Ccsf_IoniserOnOffSts_Data;
+ccu_clim_sys_sts.ccsf_rcl_flap_pos = (Ccsf_RclFlapPos)Ccsf_RclFlapPos_Data;
+ccu_clim_sys_sts.ccsf_rcl_mod_fb = (Ccsf_RclModFb)Ccsf_RclModFb_Data;
+ccu_clim_sys_sts.ccsr_re_blowr_lvl_fb = (Ccsr_ReBlowrLvlFb)Ccsr_ReBlowrLvlFb_Data;
 
-uint8_t dataArray[I1_CAN_FD_VER02_01_01_MY_ECU_2_ACM_ACTV_TRACKING_STATUS_LENGTH] = {0};
-if (i1_can_fd_ver02_01_01_my_ecu_2_acm_actv_tracking_status_pack(dataArray, &acm_actv_tracking_status, I1_CAN_FD_VER02_01_01_MY_ECU_2_ACM_ACTV_TRACKING_STATUS_LENGTH) == I1_CAN_FD_VER02_01_01_MY_ECU_2_ACM_ACTV_TRACKING_STATUS_LENGTH)
-    memcpy(&u8arrayTx[INDEX_CAN_DATA], dataArray, I1_CAN_FD_VER02_01_01_MY_ECU_2_ACM_ACTV_TRACKING_STATUS_LENGTH);
+uint8_t dataArray[I1_CAN_FD_VER02_01_01_MY_ECU_2_CCU_CLIM_SYS_STS_LENGTH] = {0};
+if (i1_can_fd_ver02_01_01_my_ecu_2_ccu_clim_sys_sts_pack(dataArray, &ccu_clim_sys_sts, I1_CAN_FD_VER02_01_01_MY_ECU_2_CCU_CLIM_SYS_STS_LENGTH) == I1_CAN_FD_VER02_01_01_MY_ECU_2_CCU_CLIM_SYS_STS_LENGTH)
+    memcpy(&u8arrayTx[INDEX_CAN_DATA], dataArray, I1_CAN_FD_VER02_01_01_MY_ECU_2_CCU_CLIM_SYS_STS_LENGTH);
     
 uint32 crc_sum;
-crc_sum = FlexCanApp_Calc_Crc32_test(&u8arrayTx, u8arrayTx[INDEX_APSS_LEN], 0);
-u8arrayTx[u8arrayTx[INDEX_APSS_LEN]] = (uint8_t)((crc_sum & 0xFF000000) >> 24);
-u8arrayTx[u8arrayTx[INDEX_APSS_LEN] + 1] = (uint8_t)((crc_sum & 0x00FF0000) >> 16);
-u8arrayTx[u8arrayTx[INDEX_APSS_LEN] + 2] = (uint8_t)((crc_sum & 0x0000FF00) >> 8);
-u8arrayTx[u8arrayTx[INDEX_APSS_LEN] + 3] = (uint8_t)(crc_sum & 0x000000FF);
+crc_sum = FlexCanApp_Calc_Crc32_test(&u8arrayTx, I1_CAN_FD_VER02_01_01_MY_ECU_2_CCU_CLIM_SYS_STS_LENGTH + 10, 0);
+u8arrayTx[I1_CAN_FD_VER02_01_01_MY_ECU_2_CCU_CLIM_SYS_STS_LENGTH + INDEX_CAN_DLC + 1] = (uint8_t)((crc_sum & 0xFF000000) >> 24);
+u8arrayTx[I1_CAN_FD_VER02_01_01_MY_ECU_2_CCU_CLIM_SYS_STS_LENGTH + INDEX_CAN_DLC + 2] = (uint8_t)((crc_sum & 0x00FF0000) >> 16);
+u8arrayTx[I1_CAN_FD_VER02_01_01_MY_ECU_2_CCU_CLIM_SYS_STS_LENGTH + INDEX_CAN_DLC + 3] = (uint8_t)((crc_sum & 0x0000FF00) >> 8);
+u8arrayTx[I1_CAN_FD_VER02_01_01_MY_ECU_2_CCU_CLIM_SYS_STS_LENGTH + INDEX_CAN_DLC + 4] = (uint8_t)(crc_sum & 0x000000FF);
 
 Rte_Call_IF_IOHw_SPI_API_IoHwAbOperation_Communication(Master_To_APSS, &u8arrayTx, &u8arrayRx, APSS_NUM);
 *Rte_Pim_MsgAlvCounter() = *Rte_Pim_MsgAlvCounter() + 1;

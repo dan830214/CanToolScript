@@ -140,37 +140,6 @@ def convert_string(s):
     processed_string = re.sub(r'(?<!^)([A-Z])', add_underscore, s)
     return processed_string  
 
-# def merge_files(file1, file2, file3, file4, file5, output_file):
-#     with open(output_file, 'w', encoding='utf-8') as outfile:
-#         with open(file1, 'r', encoding='utf-8') as f1:
-#             outfile.write(f1.read())
-#         outfile.write('\n')  # 添加一行空行作為間隔
-#         with open(file2, 'r', encoding='utf-8') as f2:
-#             outfile.write(f2.read())
-#         outfile.write('\n')  # 添加一行空行作為間隔
-#         with open(file3, 'r', encoding='utf-8') as f3:
-#             outfile.write(f3.read())
-#         outfile.write('\n')  # 添加一行空行作為間隔
-#         with open(file4, 'r', encoding='utf-8') as f4:
-#             outfile.write(f4.read())
-#         outfile.write('\n')  # 添加一行空行作為間隔
-#         with open(file5, 'r', encoding='utf-8') as f5:
-#             outfile.write(f5.read())
-  
-# def replace_double_underscores(filename):
-#     with open(filename, 'r', encoding='utf-8') as file:
-#         lines = file.readlines()
-#     # 遍历每一行，替换双下划线为单下划线
-#     modified_lines = [line.replace('__', '_') for line in lines]
-#     with open(filename, 'w', encoding='utf-8') as file:
-#         file.writelines(modified_lines)
-
-# def print_file(filename):
-#     with open(filename, 'r', encoding='utf-8') as file:
-#         file_content = file.read()  
-#     # 输出文件内容
-#     print(file_content)  
-
 def process_files_final(file1, file2, file3, file4, file5, output_file):
     # 合并文件
     with open(output_file, 'w', encoding='utf-8') as outfile:
@@ -201,9 +170,6 @@ if __name__ == "__main__":
     process_file3(input_file, output_file3)
     process_file4(input_file, output_file4)
     process_file5(input_file, output_file5)
-    # merge_files(output_file1, output_file2, output_file3, output_file4, output_file5, final_output_file)
-    # replace_double_underscores(final_output_file) 
-    # print_file(final_output_file)
     process_files_final(output_file1, output_file2, output_file3, output_file4, output_file5, final_output_file)
     os.remove(output_file1)
     os.remove(output_file2)

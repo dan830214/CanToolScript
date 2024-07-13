@@ -2,7 +2,7 @@ import os
 import re
 
 global_workspacename = "I1_CAN_FD_VER02_01_01_MY_ECU_2"
-special_strings = ["CRC", "ZCUF", "CL30", "CL15", "DCFC", "BMS", "CCu", "ACM", "ASU", "ADAS", "FL", "FR", "RR", "RL", "CCU", "DCDC", "DCMD", "DCMP"]
+special_strings = ["CRC", "ZCUF", "CL30", "CL15", "DCFC", "BMS", "CCu", "ACM", "ASU", "ADAS", "FL", "FR", "RR", "RL", "CCU", "DCDC", "DCMD", "DCMP", "DCMRL", "DCMRR", "EBCM", "EPS", "HDLML", "HDLMR", "RWA", "SFA", "MCU", "MFS", "PSMD", "PSMP"]
 global_msg_name = ""
 
 def process_line1(line):
@@ -74,10 +74,10 @@ if ({global_workspacename.lower()}_{msg_name.lower()}_pack(dataArray, &{msg_name
     
 uint32 crc_sum;
 crc_sum = FlexCanApp_Calc_Crc32_test(&u8arrayTx, {global_workspacename}_{msg_name.upper()}_LENGTH + 10, 0);
-u8arrayTx[{global_workspacename}_{msg_name.upper()}_LENGTH + INDEX_CAN_DLC + 1] = (uint8_t)((crc_sum & 0xFF000000) >> 24);
-u8arrayTx[{global_workspacename}_{msg_name.upper()}_LENGTH + INDEX_CAN_DLC + 2] = (uint8_t)((crc_sum & 0x00FF0000) >> 16);
-u8arrayTx[{global_workspacename}_{msg_name.upper()}_LENGTH + INDEX_CAN_DLC + 3] = (uint8_t)((crc_sum & 0x0000FF00) >> 8);
-u8arrayTx[{global_workspacename}_{msg_name.upper()}_LENGTH + INDEX_CAN_DLC + 4] = (uint8_t)(crc_sum & 0x000000FF);
+u8arrayTx[{global_workspacename}_{msg_name.upper()}_LENGTH + INDEX_CAN_DATA] = (uint8_t)((crc_sum & 0xFF000000) >> 24);
+u8arrayTx[{global_workspacename}_{msg_name.upper()}_LENGTH + INDEX_CAN_DATA + 1] = (uint8_t)((crc_sum & 0x00FF0000) >> 16);
+u8arrayTx[{global_workspacename}_{msg_name.upper()}_LENGTH + INDEX_CAN_DATA + 2] = (uint8_t)((crc_sum & 0x0000FF00) >> 8);
+u8arrayTx[{global_workspacename}_{msg_name.upper()}_LENGTH + INDEX_CAN_DATA + 3] = (uint8_t)(crc_sum & 0x000000FF);
 
 Rte_Call_IF_IOHw_SPI_API_IoHwAbOperation_Communication(Master_To_APSS, &u8arrayTx, &u8arrayRx, APSS_NUM);
 *Rte_Pim_MsgAlvCounter() = *Rte_Pim_MsgAlvCounter() + 1;
@@ -155,7 +155,14 @@ def process_files_final(file1, file2, file3, file4, file5, output_file):
         file.write(content)
     # 打印最终文件内容
     print(content) 
-       
+
+def remove_files(file1, file2, file3, file4, file5):
+    os.remove(file1)
+    os.remove(file2)
+    os.remove(file3)
+    os.remove(file4)
+    os.remove(file5)
+
 if __name__ == "__main__":
     input_file = 'input2.txt'  # 請將此處替換為您的txt文件名
     output_file1 = 'output1.txt'  # 第一個輸出結果文件名
@@ -171,8 +178,4 @@ if __name__ == "__main__":
     process_file4(input_file, output_file4)
     process_file5(input_file, output_file5)
     process_files_final(output_file1, output_file2, output_file3, output_file4, output_file5, final_output_file)
-    os.remove(output_file1)
-    os.remove(output_file2)
-    os.remove(output_file3)
-    os.remove(output_file4)
-    os.remove(output_file5)
+    remove_files(output_file1, output_file2, output_file3, output_file4, output_file5)

@@ -1,0 +1,1 @@
+python -X utf8 -m cantools generate_c_source --database-name CanI1_ver02_01_01 I1_CAN_FD_Ver02.01.01_MyECU_2.dbc --encoding utf-8

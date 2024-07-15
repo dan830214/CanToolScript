@@ -81,6 +81,8 @@ u8arrayTx[{global_workspacename}_{msg_name.upper()}_LENGTH + INDEX_CAN_DATA + 3]
 
 Rte_Call_IF_IOHw_SPI_API_IoHwAbOperation_Communication(Master_To_APSS, &u8arrayTx, &u8arrayRx, APSS_NUM);
 *Rte_Pim_MsgAlvCounter() = *Rte_Pim_MsgAlvCounter() + 1;
+if (u8arrayRx[INDEX_APSS_CMD] == 0x82)
+    Apss_Receive_Buffer_Enqueue(reccbufferQueue, u8arrayRx, &apss_recbufferHead, 86);
 """
         return code_snippet.strip()
     return None

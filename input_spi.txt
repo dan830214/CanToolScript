@@ -1,0 +1,74 @@
+ struct i1_can_fd_ver02_01_01_my_ecu_2_ivi_dr_wndw_cntr_t
+    {
+        /**
+         * Cyclic Redundancy Check Profile 1c
+         *
+         * Range: 0..255 (0..255 -)
+         * Scale: 1
+         * Offset: 0
+         */
+        uint8_t crc_ivi_dr_wndw_cntr;
+
+        /**
+         * Alive Counter Profile 1c
+         *
+         * Range: 0..14 (0..14 -)
+         * Scale: 1
+         * Offset: 0
+         */
+        uint8_t alv_ctr_ivi_dr_wndw_cntr;
+
+        /**
+         * Gwllwing Driver door Height Adjustment from IVI
+         *
+         * Range: 0..100 (0..100 %)
+         * Scale: 1
+         * Offset: 0
+         */
+        uint8_t pwd_drv_door_usr_ag_req;
+
+        /**
+         * Gwllwing Passenger door Height Adjustment from IVI
+         *
+         * Range: 0..100 (0..100 %)
+         * Scale: 1
+         * Offset: 0
+         */
+        uint8_t pwd_pass_door_usr_ag_req;
+
+        /**
+         * IVI Configuration for Audio Visual Configuration
+         *
+         * Range: 0..3 (0..3 -)
+         * Scale: 1
+         * Offset: 0
+         */
+        uint8_t cen_lock_audio_visual_cfg;
+
+        /**
+         * Power side step left extend/rectract request ny user via IVI
+         *
+         * Range: 0..3 (0..3 -)
+         * Scale: 1
+         * Offset: 0
+         */
+        uint8_t pwr_sd_st_le_extnd_rtract_req;
+
+        /**
+         * Power side step Right extend/rectract request ny user via IVI
+         *
+         * Range: 0..3 (0..3 -)
+         * Scale: 1
+         * Offset: 0
+         */
+        uint8_t pwr_sd_st_ri_extnd_rtract_req;
+
+        /**
+         * Window Up/Down Request From voice command for all door window
+         *
+         * Range: 0..3 (0..3 -)
+         * Scale: 1
+         * Offset: 0
+         */
+        uint8_t pwind_wndw_up_dwn_usr_req;
+    };

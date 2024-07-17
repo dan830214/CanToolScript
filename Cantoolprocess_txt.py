@@ -2,7 +2,9 @@ import os
 import re
 
 global_workspacename = "I1_CAN_FD_VER02_01_01_MY_ECU_2"
-special_strings = ["CRC", "ZCUF", "CL30", "CL15", "DCFC", "BMS", "CCu", "ACM", "ASU", "ADAS", "FL", "FR", "RR", "RL", "CCU", "DCDC", "DCMD", "DCMP", "DCMRL", "DCMRR", "EBCM", "EPS", "HDLML", "HDLMR", "RWA", "SFA", "MCU", "MFS", "PSMD", "PSMP"]
+special_strings = ["CRC", "ZCUF", "CL30", "CL15", "DCFC", "BMS", "CCu", "ACM", "ASU", "ADAS", "FL", "FR", "RR", "RL", "CCU", "DCDC", "DCMD", "DCMP", "DCMRL", "DCMRR",\
+                    "EBCM", "EPS", "HDLML", "HDLMR", "RWA", "SFA", "MCU", "MFS", "PSMD", "PSMP", "RLML", "RLMR", "RWSM", "SBM", "SLMFC", "SLMFL", "SLMFR", "SLMRC",\
+                    "TBOX", "LV", "TLML", "TLMR", "VCU", "ZCUF", "TLG", "HV", "ACT", "EPB", "ZCUR"]
 global_msg_name = ""
 
 def process_line1(line):
@@ -32,7 +34,7 @@ def process_line3(line):
         msg_name = convert_string(global_msg_name)
         code_snippet = f"""
 u8arrayTx[INDEX_APSS_CMD] = (uint8)APSS_WRITE_CMD;
-u8arrayTx[INDEX_APSS_LEN] = (uint8)({global_workspacename}_{string.upper()}_LENGTH + 10);
+u8arrayTx[INDEX_APSS_LEN] = (uint8)({global_workspacename}_{string.upper()}_LENGTH + 18);
 u8arrayTx[INDEX_APSS_SEQ] = (uint8)((*Rte_Pim_MsgAlvCounter() & 0xFF00) >> 8);
 u8arrayTx[INDEX_APSS_SEQ + 1] = (uint8)(*Rte_Pim_MsgAlvCounter() & 0x00FF);
 u8arrayTx[INDEX_CAN_IF] = (uint8)(CAN_I1_Channel);
@@ -73,7 +75,7 @@ if ({global_workspacename.lower()}_{msg_name.lower()}_pack(dataArray, &{msg_name
     memcpy(&u8arrayTx[INDEX_CAN_DATA], dataArray, {global_workspacename}_{msg_name.upper()}_LENGTH);
     
 uint32 crc_sum;
-crc_sum = FlexCanApp_Calc_Crc32_test(&u8arrayTx, {global_workspacename}_{msg_name.upper()}_LENGTH + 10, 0);
+crc_sum = FlexCanApp_Calc_Crc32_test(&u8arrayTx, {global_workspacename}_{msg_name.upper()}_LENGTH + 18, 0);
 u8arrayTx[{global_workspacename}_{msg_name.upper()}_LENGTH + INDEX_CAN_DATA] = (uint8_t)((crc_sum & 0xFF000000) >> 24);
 u8arrayTx[{global_workspacename}_{msg_name.upper()}_LENGTH + INDEX_CAN_DATA + 1] = (uint8_t)((crc_sum & 0x00FF0000) >> 16);
 u8arrayTx[{global_workspacename}_{msg_name.upper()}_LENGTH + INDEX_CAN_DATA + 2] = (uint8_t)((crc_sum & 0x0000FF00) >> 8);
@@ -81,8 +83,8 @@ u8arrayTx[{global_workspacename}_{msg_name.upper()}_LENGTH + INDEX_CAN_DATA + 3]
 
 Rte_Call_IF_IOHw_SPI_API_IoHwAbOperation_Communication(Master_To_APSS, &u8arrayTx, &u8arrayRx, APSS_NUM);
 *Rte_Pim_MsgAlvCounter() = *Rte_Pim_MsgAlvCounter() + 1;
-if (u8arrayRx[INDEX_APSS_CMD] == 0x82)
-    Apss_Receive_Buffer_Enqueue(reccbufferQueue, u8arrayRx, &apss_recbufferHead, 86);
+if (u8arrayRx[INDEX_APSS_CMD] == APSS_READ_CMD)
+    Apss_Receive_Buffer_Enqueue(reccbufferQueue, u8arrayRx, &apss_recbufferHead, APSS_NUM);
 """
         return code_snippet.strip()
     return None

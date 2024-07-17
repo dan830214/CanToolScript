@@ -1,74 +1,38 @@
- struct i1_can_fd_ver02_01_01_my_ecu_2_ivi_dr_wndw_cntr_t
+struct i1_can_fd_ver02_01_01_my_ecu_2_ivi_pssngr_seat_stored_profile_t
     {
         /**
-         * Cyclic Redundancy Check Profile 1c
+         * Passanger seat height motor position stored in passanger user profile
          *
-         * Range: 0..255 (0..255 -)
+         * Range: 0..1600 (0..1600 Count)
          * Scale: 1
          * Offset: 0
          */
-        uint8_t crc_ivi_dr_wndw_cntr;
+        uint16_t seat_adjmt_pass_hei_stored_posn;
 
         /**
-         * Alive Counter Profile 1c
+         * Passanger seat recliner motor position stored in passanger user profile
          *
-         * Range: 0..14 (0..14 -)
+         * Range: 0..5000 (0..5000 Count)
          * Scale: 1
          * Offset: 0
          */
-        uint8_t alv_ctr_ivi_dr_wndw_cntr;
+        uint16_t seat_adjmt_pass_recl_stored_posn;
 
         /**
-         * Gwllwing Driver door Height Adjustment from IVI
+         * Passanger seat tilt motor position stored in passanger user profile
          *
-         * Range: 0..100 (0..100 %)
+         * Range: 0..1000 (0..1000 Count)
          * Scale: 1
          * Offset: 0
          */
-        uint8_t pwd_drv_door_usr_ag_req;
+        uint16_t seat_adjmt_pass_tilt_stored_posn;
 
         /**
-         * Gwllwing Passenger door Height Adjustment from IVI
+         * Passanger seat forward backward motor position stored in passanger user profile
          *
-         * Range: 0..100 (0..100 %)
+         * Range: 0..1400 (0..1400 Count)
          * Scale: 1
          * Offset: 0
          */
-        uint8_t pwd_pass_door_usr_ag_req;
-
-        /**
-         * IVI Configuration for Audio Visual Configuration
-         *
-         * Range: 0..3 (0..3 -)
-         * Scale: 1
-         * Offset: 0
-         */
-        uint8_t cen_lock_audio_visual_cfg;
-
-        /**
-         * Power side step left extend/rectract request ny user via IVI
-         *
-         * Range: 0..3 (0..3 -)
-         * Scale: 1
-         * Offset: 0
-         */
-        uint8_t pwr_sd_st_le_extnd_rtract_req;
-
-        /**
-         * Power side step Right extend/rectract request ny user via IVI
-         *
-         * Range: 0..3 (0..3 -)
-         * Scale: 1
-         * Offset: 0
-         */
-        uint8_t pwr_sd_st_ri_extnd_rtract_req;
-
-        /**
-         * Window Up/Down Request From voice command for all door window
-         *
-         * Range: 0..3 (0..3 -)
-         * Scale: 1
-         * Offset: 0
-         */
-        uint8_t pwind_wndw_up_dwn_usr_req;
+        uint16_t seat_adjmt_pass_fowd_bawd_stored_posn;
     };

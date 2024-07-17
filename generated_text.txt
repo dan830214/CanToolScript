@@ -1,24 +1,15 @@
-case I1_CAN_FD_VER02_01_01_MY_ECU_2_IVI_DR_WNDW_CNTR_FRAME_ID:
-struct i1_can_fd_ver02_01_01_my_ecu_2_ivi_dr_wndw_cntr_t ivi_dr_wndw_cntr;
-uint8 u8arrayTemp[64] = {0};
-memcpy(u8arrayTemp, &u8arrayRxDequeue[10], I1_CAN_FD_VER02_01_01_MY_ECU_2_IVI_DR_WNDW_CNTR_LENGTH);
-if (i1_can_fd_ver02_01_01_my_ecu_2_ivi_dr_wndw_cntr_unpack(&ivi_dr_wndw_cntr, u8arrayTemp, I1_CAN_FD_VER02_01_01_MY_ECU_2_IVI_DR_WNDW_CNTR_LENGTH) == 0)
+case I1_CAN_FD_VER02_01_01_MY_ECU_2_IVI_PSSNGR_SEAT_STORED_PROFILE_FRAME_ID:
+struct i1_can_fd_ver02_01_01_my_ecu_2_ivi_pssngr_seat_stored_profile_t ivi_pssngr_seat_stored_profile;
+memcpy(u8arrayTemp, &u8arrayRxDequeue[10], I1_CAN_FD_VER02_01_01_MY_ECU_2_IVI_PSSNGR_SEAT_STORED_PROFILE_LENGTH);
+if (i1_can_fd_ver02_01_01_my_ecu_2_ivi_pssngr_seat_stored_profile_unpack(&ivi_pssngr_seat_stored_profile, u8arrayTemp, I1_CAN_FD_VER02_01_01_MY_ECU_2_IVI_PSSNGR_SEAT_STORED_PROFILE_LENGTH) == 0)
 {
-        CRC_IVI_DrWndw_Cntr CRC_IVI_DrWndw_Cntr_Data = (CRC_IVI_DrWndw_Cntr)ivi_dr_wndw_cntr.crc_ivi_dr_wndw_cntr;
-        AlvCtr_IVI_DrWndw_Cntr AlvCtr_IVI_DrWndw_Cntr_Data = (AlvCtr_IVI_DrWndw_Cntr)ivi_dr_wndw_cntr.alv_ctr_ivi_dr_wndw_cntr;
-        Pwd_DrvDoorUsrAgReq Pwd_DrvDoorUsrAgReq_Data = (Pwd_DrvDoorUsrAgReq)ivi_dr_wndw_cntr.pwd_drv_door_usr_ag_req;
-        Pwd_PassDoorUsrAgReq Pwd_PassDoorUsrAgReq_Data = (Pwd_PassDoorUsrAgReq)ivi_dr_wndw_cntr.pwd_pass_door_usr_ag_req;
-        CenLock_AudioVisualCfg CenLock_AudioVisualCfg_Data = (CenLock_AudioVisualCfg)ivi_dr_wndw_cntr.cen_lock_audio_visual_cfg;
-        PwrSdSt_LeExtndRtractReq PwrSdSt_LeExtndRtractReq_Data = (PwrSdSt_LeExtndRtractReq)ivi_dr_wndw_cntr.pwr_sd_st_le_extnd_rtract_req;
-        PwrSdSt_RiExtndRtractReq PwrSdSt_RiExtndRtractReq_Data = (PwrSdSt_RiExtndRtractReq)ivi_dr_wndw_cntr.pwr_sd_st_ri_extnd_rtract_req;
-        Pwind_WndwUpDwnUsrReq Pwind_WndwUpDwnUsrReq_Data = (Pwind_WndwUpDwnUsrReq)ivi_dr_wndw_cntr.pwind_wndw_up_dwn_usr_req;
-        Rte_Write_CRC_IVI_DrWndw_Cntr_CRC_IVI_DrWndw_Cntr(CRC_IVI_DrWndw_Cntr_Data);
-        Rte_Write_AlvCtr_IVI_DrWndw_Cntr_AlvCtr_IVI_DrWndw_Cntr(AlvCtr_IVI_DrWndw_Cntr_Data);
-        Rte_Write_Pwd_DrvDoorUsrAgReq_Pwd_DrvDoorUsrAgReq(Pwd_DrvDoorUsrAgReq_Data);
-        Rte_Write_Pwd_PassDoorUsrAgReq_Pwd_PassDoorUsrAgReq(Pwd_PassDoorUsrAgReq_Data);
-        Rte_Write_CenLock_AudioVisualCfg_CenLock_AudioVisualCfg(CenLock_AudioVisualCfg_Data);
-        Rte_Write_PwrSdSt_LeExtndRtractReq_PwrSdSt_LeExtndRtractReq(PwrSdSt_LeExtndRtractReq_Data);
-        Rte_Write_PwrSdSt_RiExtndRtractReq_PwrSdSt_RiExtndRtractReq(PwrSdSt_RiExtndRtractReq_Data);
-        Rte_Write_Pwind_WndwUpDwnUsrReq_Pwind_WndwUpDwnUsrReq(Pwind_WndwUpDwnUsrReq_Data);
+        SeatAdjmt_PassHeiStoredPosn SeatAdjmt_PassHeiStoredPosn_Data = (SeatAdjmt_PassHeiStoredPosn)ivi_pssngr_seat_stored_profile.seat_adjmt_pass_hei_stored_posn;
+        SeatAdjmt_PassReclStoredPosn SeatAdjmt_PassReclStoredPosn_Data = (SeatAdjmt_PassReclStoredPosn)ivi_pssngr_seat_stored_profile.seat_adjmt_pass_recl_stored_posn;
+        SeatAdjmt_PassTiltStoredPosn SeatAdjmt_PassTiltStoredPosn_Data = (SeatAdjmt_PassTiltStoredPosn)ivi_pssngr_seat_stored_profile.seat_adjmt_pass_tilt_stored_posn;
+        SeatAdjmt_PassFowdBawdStoredPosn SeatAdjmt_PassFowdBawdStoredPosn_Data = (SeatAdjmt_PassFowdBawdStoredPosn)ivi_pssngr_seat_stored_profile.seat_adjmt_pass_fowd_bawd_stored_posn;
+        Rte_Write_SeatAdjmt_PassHeiStoredPosn_SeatAdjmt_PassHeiStoredPosn(SeatAdjmt_PassHeiStoredPosn_Data);
+        Rte_Write_SeatAdjmt_PassReclStoredPosn_SeatAdjmt_PassReclStoredPosn(SeatAdjmt_PassReclStoredPosn_Data);
+        Rte_Write_SeatAdjmt_PassTiltStoredPosn_SeatAdjmt_PassTiltStoredPosn(SeatAdjmt_PassTiltStoredPosn_Data);
+        Rte_Write_SeatAdjmt_PassFowdBawdStoredPosn_SeatAdjmt_PassFowdBawdStoredPosn(SeatAdjmt_PassFowdBawdStoredPosn_Data);
     }
     break;

@@ -36,6 +36,108 @@ BS_:
 BU_: IVI ZCU_F
 
 
+BO_ 3221225472 VECTOR__INDEPENDENT_SIG_MSG: 0 Vector__XXX
+ SG_ IVI_SrcNodeID : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ IVI_CBV_ReptMsgBit_0 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ IVI_CBV_ResdBit_1 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ IVI_CBV_ResdBit_2 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ IVI_CBV_NMCoordBit_3 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ IVI_CBV_ActWakeBit_4 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ IVI_CBV_ResdBit_5 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ IVI_CBV_PNIBit_6 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ IVI_CBV_ResdBit_7 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ IVI_UDB_0 : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ IVI_UDB1_BStoRM_StBit_0 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ IVI_UDB1_PBStoRM_StBit_1 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ IVI_UDB1_RMtoNO_StBit_2 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ IVI_UDB1_RStoNO_StBit_3 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ IVI_UDB1_RStoRM_StBit_4 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ IVI_UDB1_NOtoRM_StBit_5 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ IVI_UDB1_NO_StBit_6 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ IVI_UDB1_RM_StBit_7 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ IVI_UDB2_IGN_WUPBit_0 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ IVI_UDB2_RESET_WUPBit_1 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ IVI_UDB2_NM_WUPBit_2 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ IVI_UDB2_ECUSPEC_WUPBit_3 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ IVI_UDB2_NM_AWAKEBit_4 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ IVI_UDB2_IGN_AWAKEBit_5 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ IVI_UDB2_DIAG_AWAKEBit_6 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ IVI_UDB2_ECUSPEC_AWAKEBit_7 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ IVI_UDB3_Bit_0 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ IVI_UDB3_Bit_1 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ IVI_UDB3_Bit_2 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ IVI_UDB3_Bit_3 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ IVI_UDB3_Bit_4 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ IVI_UDB3_Bit_5 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ IVI_UDB3_Bit_6 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ IVI_UDB3_Bit_7 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ IVI_UDB4_Bit_0 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ IVI_UDB4_Bit_1 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ IVI_UDB4_Bit_2 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ IVI_UDB4_Bit_3 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ IVI_UDB4_Bit_4 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ IVI_UDB4_Bit_5 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ IVI_UDB4_Bit_6 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ IVI_UDB4_Bit_7 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ IVI_UDB5_Bit_0 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ IVI_UDB5_Bit_1 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ IVI_UDB5_Bit_2 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ IVI_UDB5_Bit_3 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ IVI_UDB5_Bit_4 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ IVI_UDB5_Bit_5 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ IVI_UDB5_Bit_6 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ IVI_UDB5_Bit_7 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ZCUF_SrcNodeID : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ ZCUF_CBV_ReptMsgBit_0 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ZCUF_CBV_ResdBit_1 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ZCUF_CBV_ResdBit_2 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ZCUF_CBV_NMCoordBit_3 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ZCUF_CBV_ActWakeBit_4 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ZCUF_CBV_ResdBit_5 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ZCUF_CBV_PNIBit_6 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ZCUF_CBV_ResdBit_7 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ZCUF_UDB_0 : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ ZCUF_UDB1_BStoRM_StBit_0 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ZCUF_UDB1_PBStoRM_StBit1 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ZCUF_UDB1_RMtoNO_StBit_2 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ZCUF_UDB1_RStoNO_StBit_3 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ZCUF_UDB1_RStoRM_StBit_4 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ZCUF_UDB1_NOtoRM_StBit_5 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ZCUF_UDB1_NO_StBit_6 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ZCUF_UDB1_RM_StBit_7 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ZCUF_UDB2_IGN_WUPBit_0 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ZCUF_UDB2_RESET_WUPBit_1 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ZCUF_UDB2_NM_WUPBit_2 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ZCUF_UDB2_ECUSPEC_WUPBit_3 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ZCUF_UDB2_NM_AWAKEBit_4 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ZCUF_UDB2_IGN_AWAKEBit_5 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ZCUF_UDB2_DIAG_AWAKEBit_6 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ZCUF_UDB2_ECUSPEC_AWKEBit7 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ZCUF_UDB3_Bit_0 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ZCUF_UDB3_Bit_1 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ZCUF_UDB3_Bit_2 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ZCUF_UDB3_Bit_3 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ZCUF_UDB3_Bit_4 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ZCUF_UDB3_Bit_5 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ZCUF_UDB3_Bit_6 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ZCUF_UDB3_Bit_7 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ZCUF_UDB4_Bit_0 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ZCUF_UDB4_Bit_1 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ZCUF_UDB4_Bit_2 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ZCUF_UDB4_Bit_3 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ZCUF_UDB4_Bit_4 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ZCUF_UDB4_Bit_5 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ZCUF_UDB4_Bit_6 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ZCUF_UDB4_Bit_7 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ZCUF_UDB5_Bit_0 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ZCUF_UDB5_Bit_1 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ZCUF_UDB5_Bit_2 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ZCUF_UDB5_Bit_3 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ZCUF_UDB5_Bit_4 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ZCUF_UDB5_Bit_5 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ZCUF_UDB5_Bit_6 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ZCUF_UDB5_Bit_7 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+
 BO_ 1663 OBD_FuncDiagResp: 8 IVI
  SG_ OBD_FuncDiagResp_Byte0 : 0|8@1+ (1,0) [0|255] ""  ZCU_F
  SG_ OBD_FuncDiagResp_Byte1 : 8|8@1+ (1,0) [0|255] ""  ZCU_F
@@ -661,110 +763,6 @@ BO_ 1179 IVI_Vehicle_Mode_Ctrl: 32 IVI
  SG_ Drvmc_Mode_Req : 32|3@1+ (1,0) [0|7] ""  ZCU_F
  SG_ Eshift_TagtGear_Req : 35|3@1+ (1,0) [0|7] ""  ZCU_F
 
-BO_ 1282 NM_IVI: 8 IVI
- SG_ IVI_SrcNodeID : 0|8@1+ (1,0) [0|255] ""  ZCU_F
- SG_ IVI_CBV_ReptMsgBit_0 : 8|1@1+ (1,0) [0|1] ""  ZCU_F
- SG_ IVI_CBV_ResdBit_1 : 9|1@1+ (1,0) [0|1] ""  ZCU_F
- SG_ IVI_CBV_ResdBit_2 : 10|1@1+ (1,0) [0|1] ""  ZCU_F
- SG_ IVI_CBV_NMCoordBit_3 : 11|1@1+ (1,0) [0|1] ""  ZCU_F
- SG_ IVI_CBV_ActWakeBit_4 : 12|1@1+ (1,0) [0|1] ""  ZCU_F
- SG_ IVI_CBV_ResdBit_5 : 13|1@1+ (1,0) [0|1] ""  ZCU_F
- SG_ IVI_CBV_PNIBit_6 : 14|1@1+ (1,0) [0|1] ""  ZCU_F
- SG_ IVI_CBV_ResdBit_7 : 15|1@1+ (1,0) [0|1] ""  ZCU_F
- SG_ IVI_UDB_0 : 16|8@1+ (1,0) [0|255] ""  ZCU_F
- SG_ IVI_UDB1_BStoRM_StBit_0 : 24|1@1+ (1,0) [0|1] ""  ZCU_F
- SG_ IVI_UDB1_PBStoRM_StBit_1 : 25|1@1+ (1,0) [0|1] ""  ZCU_F
- SG_ IVI_UDB1_RMtoNO_StBit_2 : 26|1@1+ (1,0) [0|1] ""  ZCU_F
- SG_ IVI_UDB1_RStoNO_StBit_3 : 27|1@1+ (1,0) [0|1] ""  ZCU_F
- SG_ IVI_UDB1_RStoRM_StBit_4 : 28|1@1+ (1,0) [0|1] ""  ZCU_F
- SG_ IVI_UDB1_NOtoRM_StBit_5 : 29|1@1+ (1,0) [0|1] ""  ZCU_F
- SG_ IVI_UDB1_NO_StBit_6 : 30|1@1+ (1,0) [0|1] ""  ZCU_F
- SG_ IVI_UDB1_RM_StBit_7 : 31|1@1+ (1,0) [0|1] ""  ZCU_F
- SG_ IVI_UDB2_IGN_WUPBit_0 : 32|1@1+ (1,0) [0|1] ""  ZCU_F
- SG_ IVI_UDB2_RESET_WUPBit_1 : 33|1@1+ (1,0) [0|1] ""  ZCU_F
- SG_ IVI_UDB2_NM_WUPBit_2 : 34|1@1+ (1,0) [0|1] ""  ZCU_F
- SG_ IVI_UDB2_ECUSPEC_WUPBit_3 : 35|1@1+ (1,0) [0|1] ""  ZCU_F
- SG_ IVI_UDB2_NM_AWAKEBit_4 : 36|1@1+ (1,0) [0|1] ""  ZCU_F
- SG_ IVI_UDB2_IGN_AWAKEBit_5 : 37|1@1+ (1,0) [0|1] ""  ZCU_F
- SG_ IVI_UDB2_DIAG_AWAKEBit_6 : 38|1@1+ (1,0) [0|1] ""  ZCU_F
- SG_ IVI_UDB2_ECUSPEC_AWAKEBit_7 : 39|1@1+ (1,0) [0|1] ""  ZCU_F
- SG_ IVI_UDB3_Bit_0 : 40|1@1+ (1,0) [0|1] ""  ZCU_F
- SG_ IVI_UDB3_Bit_1 : 41|1@1+ (1,0) [0|1] ""  ZCU_F
- SG_ IVI_UDB3_Bit_2 : 42|1@1+ (1,0) [0|1] ""  ZCU_F
- SG_ IVI_UDB3_Bit_3 : 43|1@1+ (1,0) [0|1] ""  ZCU_F
- SG_ IVI_UDB3_Bit_4 : 44|1@1+ (1,0) [0|1] ""  ZCU_F
- SG_ IVI_UDB3_Bit_5 : 45|1@1+ (1,0) [0|1] ""  ZCU_F
- SG_ IVI_UDB3_Bit_6 : 46|1@1+ (1,0) [0|1] ""  ZCU_F
- SG_ IVI_UDB3_Bit_7 : 47|1@1+ (1,0) [0|1] ""  ZCU_F
- SG_ IVI_UDB4_Bit_0 : 48|1@1+ (1,0) [0|1] ""  ZCU_F
- SG_ IVI_UDB4_Bit_1 : 49|1@1+ (1,0) [0|1] ""  ZCU_F
- SG_ IVI_UDB4_Bit_2 : 50|1@1+ (1,0) [0|1] ""  ZCU_F
- SG_ IVI_UDB4_Bit_3 : 51|1@1+ (1,0) [0|1] ""  ZCU_F
- SG_ IVI_UDB4_Bit_4 : 52|1@1+ (1,0) [0|1] ""  ZCU_F
- SG_ IVI_UDB4_Bit_5 : 53|1@1+ (1,0) [0|1] ""  ZCU_F
- SG_ IVI_UDB4_Bit_6 : 54|1@1+ (1,0) [0|1] ""  ZCU_F
- SG_ IVI_UDB4_Bit_7 : 55|1@1+ (1,0) [0|1] ""  ZCU_F
- SG_ IVI_UDB5_Bit_0 : 56|1@1+ (1,0) [0|1] ""  ZCU_F
- SG_ IVI_UDB5_Bit_1 : 57|1@1+ (1,0) [0|1] ""  ZCU_F
- SG_ IVI_UDB5_Bit_2 : 58|1@1+ (1,0) [0|1] ""  ZCU_F
- SG_ IVI_UDB5_Bit_3 : 59|1@1+ (1,0) [0|1] ""  ZCU_F
- SG_ IVI_UDB5_Bit_4 : 60|1@1+ (1,0) [0|1] ""  ZCU_F
- SG_ IVI_UDB5_Bit_5 : 61|1@1+ (1,0) [0|1] ""  ZCU_F
- SG_ IVI_UDB5_Bit_6 : 62|1@1+ (1,0) [0|1] ""  ZCU_F
- SG_ IVI_UDB5_Bit_7 : 63|1@1+ (1,0) [0|1] ""  ZCU_F
-
-BO_ 1285 NM_ZCUF: 8 ZCU_F
- SG_ ZCUF_SrcNodeID : 0|8@1+ (1,0) [0|255] ""  IVI
- SG_ ZCUF_CBV_ReptMsgBit_0 : 8|1@1+ (1,0) [0|1] ""  IVI
- SG_ ZCUF_CBV_ResdBit_1 : 9|1@1+ (1,0) [0|1] ""  IVI
- SG_ ZCUF_CBV_ResdBit_2 : 10|1@1+ (1,0) [0|1] ""  IVI
- SG_ ZCUF_CBV_NMCoordBit_3 : 11|1@1+ (1,0) [0|1] ""  IVI
- SG_ ZCUF_CBV_ActWakeBit_4 : 12|1@1+ (1,0) [0|1] ""  IVI
- SG_ ZCUF_CBV_ResdBit_5 : 13|1@1+ (1,0) [0|1] ""  IVI
- SG_ ZCUF_CBV_PNIBit_6 : 14|1@1+ (1,0) [0|1] ""  IVI
- SG_ ZCUF_CBV_ResdBit_7 : 15|1@1+ (1,0) [0|1] ""  IVI
- SG_ ZCUF_UDB_0 : 16|8@1+ (1,0) [0|255] ""  IVI
- SG_ ZCUF_UDB1_BStoRM_StBit_0 : 24|1@1+ (1,0) [0|1] ""  IVI
- SG_ ZCUF_UDB1_PBStoRM_StBit1 : 25|1@1+ (1,0) [0|1] ""  IVI
- SG_ ZCUF_UDB1_RMtoNO_StBit_2 : 26|1@1+ (1,0) [0|1] ""  IVI
- SG_ ZCUF_UDB1_RStoNO_StBit_3 : 27|1@1+ (1,0) [0|1] ""  IVI
- SG_ ZCUF_UDB1_RStoRM_StBit_4 : 28|1@1+ (1,0) [0|1] ""  IVI
- SG_ ZCUF_UDB1_NOtoRM_StBit_5 : 29|1@1+ (1,0) [0|1] ""  IVI
- SG_ ZCUF_UDB1_NO_StBit_6 : 30|1@1+ (1,0) [0|1] ""  IVI
- SG_ ZCUF_UDB1_RM_StBit_7 : 31|1@1+ (1,0) [0|1] ""  IVI
- SG_ ZCUF_UDB2_IGN_WUPBit_0 : 32|1@1+ (1,0) [0|1] ""  IVI
- SG_ ZCUF_UDB2_RESET_WUPBit_1 : 33|1@1+ (1,0) [0|1] ""  IVI
- SG_ ZCUF_UDB2_NM_WUPBit_2 : 34|1@1+ (1,0) [0|1] ""  IVI
- SG_ ZCUF_UDB2_ECUSPEC_WUPBit_3 : 35|1@1+ (1,0) [0|1] ""  IVI
- SG_ ZCUF_UDB2_NM_AWAKEBit_4 : 36|1@1+ (1,0) [0|1] ""  IVI
- SG_ ZCUF_UDB2_IGN_AWAKEBit_5 : 37|1@1+ (1,0) [0|1] ""  IVI
- SG_ ZCUF_UDB2_DIAG_AWAKEBit_6 : 38|1@1+ (1,0) [0|1] ""  IVI
- SG_ ZCUF_UDB2_ECUSPEC_AWKEBit7 : 39|1@1+ (1,0) [0|1] ""  IVI
- SG_ ZCUF_UDB3_Bit_0 : 40|1@1+ (1,0) [0|1] ""  IVI
- SG_ ZCUF_UDB3_Bit_1 : 41|1@1+ (1,0) [0|1] ""  IVI
- SG_ ZCUF_UDB3_Bit_2 : 42|1@1+ (1,0) [0|1] ""  IVI
- SG_ ZCUF_UDB3_Bit_3 : 43|1@1+ (1,0) [0|1] ""  IVI
- SG_ ZCUF_UDB3_Bit_4 : 44|1@1+ (1,0) [0|1] ""  IVI
- SG_ ZCUF_UDB3_Bit_5 : 45|1@1+ (1,0) [0|1] ""  IVI
- SG_ ZCUF_UDB3_Bit_6 : 46|1@1+ (1,0) [0|1] ""  IVI
- SG_ ZCUF_UDB3_Bit_7 : 47|1@1+ (1,0) [0|1] ""  IVI
- SG_ ZCUF_UDB4_Bit_0 : 48|1@1+ (1,0) [0|1] ""  IVI
- SG_ ZCUF_UDB4_Bit_1 : 49|1@1+ (1,0) [0|1] ""  IVI
- SG_ ZCUF_UDB4_Bit_2 : 50|1@1+ (1,0) [0|1] ""  IVI
- SG_ ZCUF_UDB4_Bit_3 : 51|1@1+ (1,0) [0|1] ""  IVI
- SG_ ZCUF_UDB4_Bit_4 : 52|1@1+ (1,0) [0|1] ""  IVI
- SG_ ZCUF_UDB4_Bit_5 : 53|1@1+ (1,0) [0|1] ""  IVI
- SG_ ZCUF_UDB4_Bit_6 : 54|1@1+ (1,0) [0|1] ""  IVI
- SG_ ZCUF_UDB4_Bit_7 : 55|1@1+ (1,0) [0|1] ""  IVI
- SG_ ZCUF_UDB5_Bit_0 : 56|1@1+ (1,0) [0|1] ""  IVI
- SG_ ZCUF_UDB5_Bit_1 : 57|1@1+ (1,0) [0|1] ""  IVI
- SG_ ZCUF_UDB5_Bit_2 : 58|1@1+ (1,0) [0|1] ""  IVI
- SG_ ZCUF_UDB5_Bit_3 : 59|1@1+ (1,0) [0|1] ""  IVI
- SG_ ZCUF_UDB5_Bit_4 : 60|1@1+ (1,0) [0|1] ""  IVI
- SG_ ZCUF_UDB5_Bit_5 : 61|1@1+ (1,0) [0|1] ""  IVI
- SG_ ZCUF_UDB5_Bit_6 : 62|1@1+ (1,0) [0|1] ""  IVI
- SG_ ZCUF_UDB5_Bit_7 : 63|1@1+ (1,0) [0|1] ""  IVI
-
 BO_ 1411 TBOX_Warning: 32 ZCU_F
  SG_ CRC_TBOX_Warning : 0|16@1+ (1,0) [0|65535] ""  IVI
  SG_ AlvCtr_TBOX_Warning : 16|8@1+ (1,0) [0|255] ""  IVI
@@ -1273,6 +1271,107 @@ BO_ 1791 OBD_FuncDiagReq: 8 ZCU_F
 CM_ "Infotainment 1 CAN FD";
 CM_ BU_ IVI "In Vehicle Infotainment";
 CM_ BU_ ZCU_F "Zone Control Unit-Front";
+CM_ BO_ 3221225472 "This is a message for not used signals, created by Vector CANdb++ DBC OLE DB Provider.";
+CM_ SG_ 3221225472 IVI_SrcNodeID "IVI Network management signal for Source Node identifer";
+CM_ SG_ 3221225472 IVI_CBV_ReptMsgBit_0 "IVI Network management signal for Control bit vector Repeat Message Request";
+CM_ SG_ 3221225472 IVI_CBV_ResdBit_1 "IVI Network management signal for Control bit vector Reserved";
+CM_ SG_ 3221225472 IVI_CBV_ResdBit_2 "IVI Network management signal for Control bit vector Reserved";
+CM_ SG_ 3221225472 IVI_CBV_NMCoordBit_3 "IVI Network management signal for Control bit vector NM Coordinator Sleep Bit";
+CM_ SG_ 3221225472 IVI_CBV_ActWakeBit_4 "IVI Network management signal for Control bit vector Active Wakeup Bit";
+CM_ SG_ 3221225472 IVI_CBV_ResdBit_5 "IVI Network management signal for Control bit vector Reserved";
+CM_ SG_ 3221225472 IVI_CBV_PNIBit_6 "IVI Network management signal for Partial Network Information Bit";
+CM_ SG_ 3221225472 IVI_CBV_ResdBit_7 "IVI Network management signal for Control bit vector Reserved";
+CM_ SG_ 3221225472 IVI_UDB_0 "IVI Network management user data Byte 0";
+CM_ SG_ 3221225472 IVI_UDB1_BStoRM_StBit_0 "IVI Network management user data 1 from Bus sleep mode to Repeat Message State";
+CM_ SG_ 3221225472 IVI_UDB1_PBStoRM_StBit_1 "IVI Network management user data 1 from Prepare Bus sleep mode to Repeat Message State";
+CM_ SG_ 3221225472 IVI_UDB1_RMtoNO_StBit_2 "IVI Network management user data 1 from Repeat Message State to Normal Operation State";
+CM_ SG_ 3221225472 IVI_UDB1_RStoNO_StBit_3 "IVI Network management user data 1 from Ready Sleep State to Normal Operation State";
+CM_ SG_ 3221225472 IVI_UDB1_RStoRM_StBit_4 "IVI Network management user data 1 from Ready Sleep State to Repeat Message State";
+CM_ SG_ 3221225472 IVI_UDB1_NOtoRM_StBit_5 "IVI Network management user data 1 from Normal Operation State to Repeat Message State";
+CM_ SG_ 3221225472 IVI_UDB1_NO_StBit_6 "IVI Network management user data 1 at Normal Operation State";
+CM_ SG_ 3221225472 IVI_UDB1_RM_StBit_7 "IVI Network management user data 1 at Repeat Message State";
+CM_ SG_ 3221225472 IVI_UDB2_IGN_WUPBit_0 "ECU was power off or Bus sleep mode and stated by Ignition turn on";
+CM_ SG_ 3221225472 IVI_UDB2_RESET_WUPBit_1 "If ECU was already awake, in Prepare Bus Sleep or Ready Sleep Mode and re -started by an internal or an external reset.";
+CM_ SG_ 3221225472 IVI_UDB2_NM_WUPBit_2 "ECU was in Power off , Bus Sleep, Prepare Bus Sleep or Ready Sleep Mode and then re-started by a network communication.";
+CM_ SG_ 3221225472 IVI_UDB2_ECUSPEC_WUPBit_3 "ECU was in Power off, Bus Sleep, Prepare Bus Sleep or Ready Sleep mode or awake and then re -started by ECU -specific reason(e.g. pressed Button, timer, etc.)";
+CM_ SG_ 3221225472 IVI_UDB2_NM_AWAKEBit_4 "ECU need network communication and keeps the network awake.";
+CM_ SG_ 3221225472 IVI_UDB2_IGN_AWAKEBit_5 "ECU can not release communication because Ignition is turn on.";
+CM_ SG_ 3221225472 IVI_UDB2_DIAG_AWAKEBit_6 "ECU need communication for diagnostic purpose and keeps network awake.";
+CM_ SG_ 3221225472 IVI_UDB2_ECUSPEC_AWAKEBit_7 "ECU keeps the network awake for ECU-define reasons for which communication is needed.";
+CM_ SG_ 3221225472 IVI_UDB3_Bit_0 "IVI Network management user data 3 Bit 0";
+CM_ SG_ 3221225472 IVI_UDB3_Bit_1 "IVI Network management user data 3 Bit 1";
+CM_ SG_ 3221225472 IVI_UDB3_Bit_2 "IVI Network management user data 3 Bit 2";
+CM_ SG_ 3221225472 IVI_UDB3_Bit_3 "IVI Network management user data 3 Bit 3";
+CM_ SG_ 3221225472 IVI_UDB3_Bit_4 "IVI Network management user data 3 Bit 4";
+CM_ SG_ 3221225472 IVI_UDB3_Bit_5 "IVI Network management user data 3 Bit 5";
+CM_ SG_ 3221225472 IVI_UDB3_Bit_6 "IVI Network management user data 3 Bit 6";
+CM_ SG_ 3221225472 IVI_UDB3_Bit_7 "IVI Network management user data 3 Bit 7";
+CM_ SG_ 3221225472 IVI_UDB4_Bit_0 "IVI Network management user data 4 Bit 0";
+CM_ SG_ 3221225472 IVI_UDB4_Bit_1 "IVI Network management user data 4 Bit 1";
+CM_ SG_ 3221225472 IVI_UDB4_Bit_2 "IVI Network management user data 4 Bit 2";
+CM_ SG_ 3221225472 IVI_UDB4_Bit_3 "IVI Network management user data 4 Bit 3";
+CM_ SG_ 3221225472 IVI_UDB4_Bit_4 "IVI Network management user data 4 Bit 4";
+CM_ SG_ 3221225472 IVI_UDB4_Bit_5 "IVI Network management user data 4 Bit 5";
+CM_ SG_ 3221225472 IVI_UDB4_Bit_6 "IVI Network management user data 4 Bit 6";
+CM_ SG_ 3221225472 IVI_UDB4_Bit_7 "IVI Network management user data 4 Bit 7";
+CM_ SG_ 3221225472 IVI_UDB5_Bit_0 "IVI Network management user data 5 Bit 0";
+CM_ SG_ 3221225472 IVI_UDB5_Bit_1 "IVI Network management user data 5 Bit 1";
+CM_ SG_ 3221225472 IVI_UDB5_Bit_2 "IVI Network management user data 5 Bit 2";
+CM_ SG_ 3221225472 IVI_UDB5_Bit_3 "IVI Network management user data 5 Bit 3";
+CM_ SG_ 3221225472 IVI_UDB5_Bit_4 "IVI Network management user data 5 Bit 4";
+CM_ SG_ 3221225472 IVI_UDB5_Bit_5 "IVI Network management user data 5 Bit 5";
+CM_ SG_ 3221225472 IVI_UDB5_Bit_6 "IVI Network management user data 5 Bit 6";
+CM_ SG_ 3221225472 IVI_UDB5_Bit_7 "IVI Network management user data 5 Bit 7";
+CM_ SG_ 3221225472 ZCUF_SrcNodeID "ZCU_F Network management signal for Source Node identifer";
+CM_ SG_ 3221225472 ZCUF_CBV_ReptMsgBit_0 "ZCU_F Network management signal for Control bit vector Repeat Message Request";
+CM_ SG_ 3221225472 ZCUF_CBV_ResdBit_1 "ZCU_F Network management signal for Control bit vector Reserved";
+CM_ SG_ 3221225472 ZCUF_CBV_ResdBit_2 "ZCU_F Network management signal for Control bit vector Reserved";
+CM_ SG_ 3221225472 ZCUF_CBV_NMCoordBit_3 "ZCU_F Network management signal for Control bit vector NM Coordinator Sleep Bit";
+CM_ SG_ 3221225472 ZCUF_CBV_ActWakeBit_4 "ZCU_F Network management signal for Control bit vector Active Wakeup Bit";
+CM_ SG_ 3221225472 ZCUF_CBV_ResdBit_5 "ZCU_F Network management signal for Control bit vector Reserved";
+CM_ SG_ 3221225472 ZCUF_CBV_PNIBit_6 "ZCU_F Network management signal for Partial Network Information Bit";
+CM_ SG_ 3221225472 ZCUF_CBV_ResdBit_7 "ZCU_F Network management signal for Control bit vector Reserved";
+CM_ SG_ 3221225472 ZCUF_UDB_0 "ZCU_F Network management user data Byte 0";
+CM_ SG_ 3221225472 ZCUF_UDB1_BStoRM_StBit_0 "ZCU_F Network management user data 1 from Bus sleep mode to Repeat Message State";
+CM_ SG_ 3221225472 ZCUF_UDB1_PBStoRM_StBit1 "ZCU_F Network management user data 1 from Prepare Bus sleep mode to Repeat Message State";
+CM_ SG_ 3221225472 ZCUF_UDB1_RMtoNO_StBit_2 "ZCU_F Network management user data 1 from Repeat Message State to Normal Operation State";
+CM_ SG_ 3221225472 ZCUF_UDB1_RStoNO_StBit_3 "ZCU_F Network management user data 1 from Ready Sleep State to Normal Operation State";
+CM_ SG_ 3221225472 ZCUF_UDB1_RStoRM_StBit_4 "ZCU_F Network management user data 1 from Ready Sleep State to Repeat Message State";
+CM_ SG_ 3221225472 ZCUF_UDB1_NOtoRM_StBit_5 "ZCU_F Network management user data 1 from Normal Operation State to Repeat Message State";
+CM_ SG_ 3221225472 ZCUF_UDB1_NO_StBit_6 "ZCU_F Network management user data 1 at Normal Operation State";
+CM_ SG_ 3221225472 ZCUF_UDB1_RM_StBit_7 "ZCU_F Network management user data 1 at Repeat Message State";
+CM_ SG_ 3221225472 ZCUF_UDB2_IGN_WUPBit_0 "ECU was power off or Bus sleep mode and stated by Ignition turn on";
+CM_ SG_ 3221225472 ZCUF_UDB2_RESET_WUPBit_1 "If ECU was already awake, in Prepare Bus Sleep or Ready Sleep Mode and re -started by an internal or an external reset.";
+CM_ SG_ 3221225472 ZCUF_UDB2_NM_WUPBit_2 "ECU was in Power off , Bus Sleep, Prepare Bus Sleep or Ready Sleep Mode and then re-started by a network communication.";
+CM_ SG_ 3221225472 ZCUF_UDB2_ECUSPEC_WUPBit_3 "ECU was in Power off, Bus Sleep, Prepare Bus Sleep or Ready Sleep mode or awake and then re -started by ECU -specific reason(e.g. pressed Button, timer, etc.)";
+CM_ SG_ 3221225472 ZCUF_UDB2_NM_AWAKEBit_4 "ECU need network communication and keeps the network awake.";
+CM_ SG_ 3221225472 ZCUF_UDB2_IGN_AWAKEBit_5 "ECU can not release communication because Ignition is turn on.";
+CM_ SG_ 3221225472 ZCUF_UDB2_DIAG_AWAKEBit_6 "ECU need communication for diagnostic purpose and keeps network awake.";
+CM_ SG_ 3221225472 ZCUF_UDB2_ECUSPEC_AWKEBit7 "ECU keeps the network awake for ECU-define reasons for which communication is needed.";
+CM_ SG_ 3221225472 ZCUF_UDB3_Bit_0 "ZCU_F Network management user data 3 Bit 0";
+CM_ SG_ 3221225472 ZCUF_UDB3_Bit_1 "ZCU_F Network management user data 3 Bit 1";
+CM_ SG_ 3221225472 ZCUF_UDB3_Bit_2 "ZCU_F Network management user data 3 Bit 2";
+CM_ SG_ 3221225472 ZCUF_UDB3_Bit_3 "ZCU_F Network management user data 3 Bit 3";
+CM_ SG_ 3221225472 ZCUF_UDB3_Bit_4 "ZCU_F Network management user data 3 Bit 4";
+CM_ SG_ 3221225472 ZCUF_UDB3_Bit_5 "ZCU_F Network management user data 3 Bit 5";
+CM_ SG_ 3221225472 ZCUF_UDB3_Bit_6 "ZCU_F Network management user data 3 Bit 6";
+CM_ SG_ 3221225472 ZCUF_UDB3_Bit_7 "ZCU_F Network management user data 3 Bit 7";
+CM_ SG_ 3221225472 ZCUF_UDB4_Bit_0 "ZCU_F Network management user data 4 Bit 0";
+CM_ SG_ 3221225472 ZCUF_UDB4_Bit_1 "ZCU_F Network management user data 4 Bit 1";
+CM_ SG_ 3221225472 ZCUF_UDB4_Bit_2 "ZCU_F Network management user data 4 Bit 2";
+CM_ SG_ 3221225472 ZCUF_UDB4_Bit_3 "ZCU_F Network management user data 4 Bit 3";
+CM_ SG_ 3221225472 ZCUF_UDB4_Bit_4 "ZCU_F Network management user data 4 Bit 4";
+CM_ SG_ 3221225472 ZCUF_UDB4_Bit_5 "ZCU_F Network management user data 4 Bit 5";
+CM_ SG_ 3221225472 ZCUF_UDB4_Bit_6 "ZCU_F Network management user data 4 Bit 6";
+CM_ SG_ 3221225472 ZCUF_UDB4_Bit_7 "ZCU_F Network management user data 4 Bit 7";
+CM_ SG_ 3221225472 ZCUF_UDB5_Bit_0 "ZCU_F Network management user data 5 Bit 0";
+CM_ SG_ 3221225472 ZCUF_UDB5_Bit_1 "ZCU_F Network management user data 5 Bit 1";
+CM_ SG_ 3221225472 ZCUF_UDB5_Bit_2 "ZCU_F Network management user data 5 Bit 2";
+CM_ SG_ 3221225472 ZCUF_UDB5_Bit_3 "ZCU_F Network management user data 5 Bit 3";
+CM_ SG_ 3221225472 ZCUF_UDB5_Bit_4 "ZCU_F Network management user data 5 Bit 4";
+CM_ SG_ 3221225472 ZCUF_UDB5_Bit_5 "ZCU_F Network management user data 5 Bit 5";
+CM_ SG_ 3221225472 ZCUF_UDB5_Bit_6 "ZCU_F Network management user data 5 Bit 6";
+CM_ SG_ 3221225472 ZCUF_UDB5_Bit_7 "ZCU_F Network management user data 5 Bit 7";
 CM_ BO_ 1663 "Diagnostic Functional Request
 ";
 CM_ SG_ 1663 OBD_FuncDiagResp_Byte0 "Diagnostic Signal Data Request Byte0
@@ -1883,108 +1982,6 @@ CM_ SG_ 1179 Lvm_LongParkMode_Req "Long park mode activation by user";
 CM_ SG_ 1179 Lvm_StorageMode_Req "Storage mode activation request via diagnostic";
 CM_ SG_ 1179 Drvmc_Mode_Req "Drive mode input from IVI (Rx) (VCU)";
 CM_ SG_ 1179 Eshift_TagtGear_Req "Target gear request";
-CM_ BO_ 1282 "In Vehicle Infotainment Network Management";
-CM_ SG_ 1282 IVI_SrcNodeID "IVI Network management signal for Source Node identifer";
-CM_ SG_ 1282 IVI_CBV_ReptMsgBit_0 "IVI Network management signal for Control bit vector Repeat Message Request";
-CM_ SG_ 1282 IVI_CBV_ResdBit_1 "IVI Network management signal for Control bit vector Reserved";
-CM_ SG_ 1282 IVI_CBV_ResdBit_2 "IVI Network management signal for Control bit vector Reserved";
-CM_ SG_ 1282 IVI_CBV_NMCoordBit_3 "IVI Network management signal for Control bit vector NM Coordinator Sleep Bit";
-CM_ SG_ 1282 IVI_CBV_ActWakeBit_4 "IVI Network management signal for Control bit vector Active Wakeup Bit";
-CM_ SG_ 1282 IVI_CBV_ResdBit_5 "IVI Network management signal for Control bit vector Reserved";
-CM_ SG_ 1282 IVI_CBV_PNIBit_6 "IVI Network management signal for Partial Network Information Bit";
-CM_ SG_ 1282 IVI_CBV_ResdBit_7 "IVI Network management signal for Control bit vector Reserved";
-CM_ SG_ 1282 IVI_UDB_0 "IVI Network management user data Byte 0";
-CM_ SG_ 1282 IVI_UDB1_BStoRM_StBit_0 "IVI Network management user data 1 from Bus sleep mode to Repeat Message State";
-CM_ SG_ 1282 IVI_UDB1_PBStoRM_StBit_1 "IVI Network management user data 1 from Prepare Bus sleep mode to Repeat Message State";
-CM_ SG_ 1282 IVI_UDB1_RMtoNO_StBit_2 "IVI Network management user data 1 from Repeat Message State to Normal Operation State";
-CM_ SG_ 1282 IVI_UDB1_RStoNO_StBit_3 "IVI Network management user data 1 from Ready Sleep State to Normal Operation State";
-CM_ SG_ 1282 IVI_UDB1_RStoRM_StBit_4 "IVI Network management user data 1 from Ready Sleep State to Repeat Message State";
-CM_ SG_ 1282 IVI_UDB1_NOtoRM_StBit_5 "IVI Network management user data 1 from Normal Operation State to Repeat Message State";
-CM_ SG_ 1282 IVI_UDB1_NO_StBit_6 "IVI Network management user data 1 at Normal Operation State";
-CM_ SG_ 1282 IVI_UDB1_RM_StBit_7 "IVI Network management user data 1 at Repeat Message State";
-CM_ SG_ 1282 IVI_UDB2_IGN_WUPBit_0 "ECU was power off or Bus sleep mode and stated by Ignition turn on";
-CM_ SG_ 1282 IVI_UDB2_RESET_WUPBit_1 "If ECU was already awake, in Prepare Bus Sleep or Ready Sleep Mode and re -started by an internal or an external reset.";
-CM_ SG_ 1282 IVI_UDB2_NM_WUPBit_2 "ECU was in Power off , Bus Sleep, Prepare Bus Sleep or Ready Sleep Mode and then re-started by a network communication.";
-CM_ SG_ 1282 IVI_UDB2_ECUSPEC_WUPBit_3 "ECU was in Power off, Bus Sleep, Prepare Bus Sleep or Ready Sleep mode or awake and then re -started by ECU -specific reason(e.g. pressed Button, timer, etc.)";
-CM_ SG_ 1282 IVI_UDB2_NM_AWAKEBit_4 "ECU need network communication and keeps the network awake.";
-CM_ SG_ 1282 IVI_UDB2_IGN_AWAKEBit_5 "ECU can not release communication because Ignition is turn on.";
-CM_ SG_ 1282 IVI_UDB2_DIAG_AWAKEBit_6 "ECU need communication for diagnostic purpose and keeps network awake.";
-CM_ SG_ 1282 IVI_UDB2_ECUSPEC_AWAKEBit_7 "ECU keeps the network awake for ECU-define reasons for which communication is needed.";
-CM_ SG_ 1282 IVI_UDB3_Bit_0 "IVI Network management user data 3 Bit 0";
-CM_ SG_ 1282 IVI_UDB3_Bit_1 "IVI Network management user data 3 Bit 1";
-CM_ SG_ 1282 IVI_UDB3_Bit_2 "IVI Network management user data 3 Bit 2";
-CM_ SG_ 1282 IVI_UDB3_Bit_3 "IVI Network management user data 3 Bit 3";
-CM_ SG_ 1282 IVI_UDB3_Bit_4 "IVI Network management user data 3 Bit 4";
-CM_ SG_ 1282 IVI_UDB3_Bit_5 "IVI Network management user data 3 Bit 5";
-CM_ SG_ 1282 IVI_UDB3_Bit_6 "IVI Network management user data 3 Bit 6";
-CM_ SG_ 1282 IVI_UDB3_Bit_7 "IVI Network management user data 3 Bit 7";
-CM_ SG_ 1282 IVI_UDB4_Bit_0 "IVI Network management user data 4 Bit 0";
-CM_ SG_ 1282 IVI_UDB4_Bit_1 "IVI Network management user data 4 Bit 1";
-CM_ SG_ 1282 IVI_UDB4_Bit_2 "IVI Network management user data 4 Bit 2";
-CM_ SG_ 1282 IVI_UDB4_Bit_3 "IVI Network management user data 4 Bit 3";
-CM_ SG_ 1282 IVI_UDB4_Bit_4 "IVI Network management user data 4 Bit 4";
-CM_ SG_ 1282 IVI_UDB4_Bit_5 "IVI Network management user data 4 Bit 5";
-CM_ SG_ 1282 IVI_UDB4_Bit_6 "IVI Network management user data 4 Bit 6";
-CM_ SG_ 1282 IVI_UDB4_Bit_7 "IVI Network management user data 4 Bit 7";
-CM_ SG_ 1282 IVI_UDB5_Bit_0 "IVI Network management user data 5 Bit 0";
-CM_ SG_ 1282 IVI_UDB5_Bit_1 "IVI Network management user data 5 Bit 1";
-CM_ SG_ 1282 IVI_UDB5_Bit_2 "IVI Network management user data 5 Bit 2";
-CM_ SG_ 1282 IVI_UDB5_Bit_3 "IVI Network management user data 5 Bit 3";
-CM_ SG_ 1282 IVI_UDB5_Bit_4 "IVI Network management user data 5 Bit 4";
-CM_ SG_ 1282 IVI_UDB5_Bit_5 "IVI Network management user data 5 Bit 5";
-CM_ SG_ 1282 IVI_UDB5_Bit_6 "IVI Network management user data 5 Bit 6";
-CM_ SG_ 1282 IVI_UDB5_Bit_7 "IVI Network management user data 5 Bit 7";
-CM_ BO_ 1285 "Zone Control Unit-Front Network Management";
-CM_ SG_ 1285 ZCUF_SrcNodeID "ZCU_F Network management signal for Source Node identifer";
-CM_ SG_ 1285 ZCUF_CBV_ReptMsgBit_0 "ZCU_F Network management signal for Control bit vector Repeat Message Request";
-CM_ SG_ 1285 ZCUF_CBV_ResdBit_1 "ZCU_F Network management signal for Control bit vector Reserved";
-CM_ SG_ 1285 ZCUF_CBV_ResdBit_2 "ZCU_F Network management signal for Control bit vector Reserved";
-CM_ SG_ 1285 ZCUF_CBV_NMCoordBit_3 "ZCU_F Network management signal for Control bit vector NM Coordinator Sleep Bit";
-CM_ SG_ 1285 ZCUF_CBV_ActWakeBit_4 "ZCU_F Network management signal for Control bit vector Active Wakeup Bit";
-CM_ SG_ 1285 ZCUF_CBV_ResdBit_5 "ZCU_F Network management signal for Control bit vector Reserved";
-CM_ SG_ 1285 ZCUF_CBV_PNIBit_6 "ZCU_F Network management signal for Partial Network Information Bit";
-CM_ SG_ 1285 ZCUF_CBV_ResdBit_7 "ZCU_F Network management signal for Control bit vector Reserved";
-CM_ SG_ 1285 ZCUF_UDB_0 "ZCU_F Network management user data Byte 0";
-CM_ SG_ 1285 ZCUF_UDB1_BStoRM_StBit_0 "ZCU_F Network management user data 1 from Bus sleep mode to Repeat Message State";
-CM_ SG_ 1285 ZCUF_UDB1_PBStoRM_StBit1 "ZCU_F Network management user data 1 from Prepare Bus sleep mode to Repeat Message State";
-CM_ SG_ 1285 ZCUF_UDB1_RMtoNO_StBit_2 "ZCU_F Network management user data 1 from Repeat Message State to Normal Operation State";
-CM_ SG_ 1285 ZCUF_UDB1_RStoNO_StBit_3 "ZCU_F Network management user data 1 from Ready Sleep State to Normal Operation State";
-CM_ SG_ 1285 ZCUF_UDB1_RStoRM_StBit_4 "ZCU_F Network management user data 1 from Ready Sleep State to Repeat Message State";
-CM_ SG_ 1285 ZCUF_UDB1_NOtoRM_StBit_5 "ZCU_F Network management user data 1 from Normal Operation State to Repeat Message State";
-CM_ SG_ 1285 ZCUF_UDB1_NO_StBit_6 "ZCU_F Network management user data 1 at Normal Operation State";
-CM_ SG_ 1285 ZCUF_UDB1_RM_StBit_7 "ZCU_F Network management user data 1 at Repeat Message State";
-CM_ SG_ 1285 ZCUF_UDB2_IGN_WUPBit_0 "ECU was power off or Bus sleep mode and stated by Ignition turn on";
-CM_ SG_ 1285 ZCUF_UDB2_RESET_WUPBit_1 "If ECU was already awake, in Prepare Bus Sleep or Ready Sleep Mode and re -started by an internal or an external reset.";
-CM_ SG_ 1285 ZCUF_UDB2_NM_WUPBit_2 "ECU was in Power off , Bus Sleep, Prepare Bus Sleep or Ready Sleep Mode and then re-started by a network communication.";
-CM_ SG_ 1285 ZCUF_UDB2_ECUSPEC_WUPBit_3 "ECU was in Power off, Bus Sleep, Prepare Bus Sleep or Ready Sleep mode or awake and then re -started by ECU -specific reason(e.g. pressed Button, timer, etc.)";
-CM_ SG_ 1285 ZCUF_UDB2_NM_AWAKEBit_4 "ECU need network communication and keeps the network awake.";
-CM_ SG_ 1285 ZCUF_UDB2_IGN_AWAKEBit_5 "ECU can not release communication because Ignition is turn on.";
-CM_ SG_ 1285 ZCUF_UDB2_DIAG_AWAKEBit_6 "ECU need communication for diagnostic purpose and keeps network awake.";
-CM_ SG_ 1285 ZCUF_UDB2_ECUSPEC_AWKEBit7 "ECU keeps the network awake for ECU-define reasons for which communication is needed.";
-CM_ SG_ 1285 ZCUF_UDB3_Bit_0 "ZCU_F Network management user data 3 Bit 0";
-CM_ SG_ 1285 ZCUF_UDB3_Bit_1 "ZCU_F Network management user data 3 Bit 1";
-CM_ SG_ 1285 ZCUF_UDB3_Bit_2 "ZCU_F Network management user data 3 Bit 2";
-CM_ SG_ 1285 ZCUF_UDB3_Bit_3 "ZCU_F Network management user data 3 Bit 3";
-CM_ SG_ 1285 ZCUF_UDB3_Bit_4 "ZCU_F Network management user data 3 Bit 4";
-CM_ SG_ 1285 ZCUF_UDB3_Bit_5 "ZCU_F Network management user data 3 Bit 5";
-CM_ SG_ 1285 ZCUF_UDB3_Bit_6 "ZCU_F Network management user data 3 Bit 6";
-CM_ SG_ 1285 ZCUF_UDB3_Bit_7 "ZCU_F Network management user data 3 Bit 7";
-CM_ SG_ 1285 ZCUF_UDB4_Bit_0 "ZCU_F Network management user data 4 Bit 0";
-CM_ SG_ 1285 ZCUF_UDB4_Bit_1 "ZCU_F Network management user data 4 Bit 1";
-CM_ SG_ 1285 ZCUF_UDB4_Bit_2 "ZCU_F Network management user data 4 Bit 2";
-CM_ SG_ 1285 ZCUF_UDB4_Bit_3 "ZCU_F Network management user data 4 Bit 3";
-CM_ SG_ 1285 ZCUF_UDB4_Bit_4 "ZCU_F Network management user data 4 Bit 4";
-CM_ SG_ 1285 ZCUF_UDB4_Bit_5 "ZCU_F Network management user data 4 Bit 5";
-CM_ SG_ 1285 ZCUF_UDB4_Bit_6 "ZCU_F Network management user data 4 Bit 6";
-CM_ SG_ 1285 ZCUF_UDB4_Bit_7 "ZCU_F Network management user data 4 Bit 7";
-CM_ SG_ 1285 ZCUF_UDB5_Bit_0 "ZCU_F Network management user data 5 Bit 0";
-CM_ SG_ 1285 ZCUF_UDB5_Bit_1 "ZCU_F Network management user data 5 Bit 1";
-CM_ SG_ 1285 ZCUF_UDB5_Bit_2 "ZCU_F Network management user data 5 Bit 2";
-CM_ SG_ 1285 ZCUF_UDB5_Bit_3 "ZCU_F Network management user data 5 Bit 3";
-CM_ SG_ 1285 ZCUF_UDB5_Bit_4 "ZCU_F Network management user data 5 Bit 4";
-CM_ SG_ 1285 ZCUF_UDB5_Bit_5 "ZCU_F Network management user data 5 Bit 5";
-CM_ SG_ 1285 ZCUF_UDB5_Bit_6 "ZCU_F Network management user data 5 Bit 6";
-CM_ SG_ 1285 ZCUF_UDB5_Bit_7 "ZCU_F Network management user data 5 Bit 7";
 CM_ BO_ 1411 "Telematic Box Warnings";
 CM_ SG_ 1411 CRC_TBOX_Warning "Cyclic Redundancy Check Profile 5 ";
 CM_ SG_ 1411 AlvCtr_TBOX_Warning "Alive Counter Profile 5";
@@ -3043,18 +3040,6 @@ BA_ "E2EProfile" BO_ 1179 1;
 BA_ "DiagState" BO_ 1179 0;
 BA_ "DataID" BO_ 1179 1733;
 BA_ "VFrameFormat" BO_ 1179 14;
-BA_ "NmAsrMessage" BO_ 1282 1;
-BA_ "GenMsgSendType" BO_ 1282 0;
-BA_ "GenMsgILSupport" BO_ 1282 0;
-BA_ "GenMsgCycleTime" BO_ 1282 640;
-BA_ "DiagState" BO_ 1282 0;
-BA_ "VFrameFormat" BO_ 1282 14;
-BA_ "NmAsrMessage" BO_ 1285 1;
-BA_ "GenMsgSendType" BO_ 1285 0;
-BA_ "GenMsgILSupport" BO_ 1285 0;
-BA_ "GenMsgCycleTime" BO_ 1285 640;
-BA_ "DiagState" BO_ 1285 0;
-BA_ "VFrameFormat" BO_ 1285 14;
 BA_ "GenMsgSendType" BO_ 1411 2;
 BA_ "GenMsgNrOfRepetition" BO_ 1411 2;
 BA_ "GenMsgILSupport" BO_ 1411 1;
@@ -3410,6 +3395,188 @@ BA_ "DiagRequest" BO_ 1791 1;
 BA_ "DiagConnection" BO_ 1791 11113;
 BA_ "GenMsgILSupport" BO_ 1791 0;
 BA_ "VFrameFormat" BO_ 1791 14;
+BA_ "GenSigSendType" SG_ 3221225472 IVI_SrcNodeID 3;
+BA_ "GenSigSendType" SG_ 3221225472 IVI_CBV_ReptMsgBit_0 3;
+BA_ "GenSigSendType" SG_ 3221225472 IVI_CBV_ResdBit_1 3;
+BA_ "GenSigSendType" SG_ 3221225472 IVI_CBV_ResdBit_2 3;
+BA_ "GenSigSendType" SG_ 3221225472 IVI_CBV_NMCoordBit_3 3;
+BA_ "GenSigSendType" SG_ 3221225472 IVI_CBV_ActWakeBit_4 3;
+BA_ "GenSigSendType" SG_ 3221225472 IVI_CBV_ResdBit_5 3;
+BA_ "GenSigSendType" SG_ 3221225472 IVI_CBV_PNIBit_6 3;
+BA_ "GenSigSendType" SG_ 3221225472 IVI_CBV_ResdBit_7 3;
+BA_ "InvalidValue" SG_ 3221225472 IVI_UDB_0 "255";
+BA_ "GenSigSendType" SG_ 3221225472 IVI_UDB_0 3;
+BA_ "InvalidValue" SG_ 3221225472 IVI_UDB1_BStoRM_StBit_0 "1";
+BA_ "GenSigSendType" SG_ 3221225472 IVI_UDB1_BStoRM_StBit_0 3;
+BA_ "InvalidValue" SG_ 3221225472 IVI_UDB1_PBStoRM_StBit_1 "1";
+BA_ "GenSigSendType" SG_ 3221225472 IVI_UDB1_PBStoRM_StBit_1 3;
+BA_ "InvalidValue" SG_ 3221225472 IVI_UDB1_RMtoNO_StBit_2 "1";
+BA_ "GenSigSendType" SG_ 3221225472 IVI_UDB1_RMtoNO_StBit_2 3;
+BA_ "InvalidValue" SG_ 3221225472 IVI_UDB1_RStoNO_StBit_3 "1";
+BA_ "GenSigSendType" SG_ 3221225472 IVI_UDB1_RStoNO_StBit_3 3;
+BA_ "InvalidValue" SG_ 3221225472 IVI_UDB1_RStoRM_StBit_4 "1";
+BA_ "GenSigSendType" SG_ 3221225472 IVI_UDB1_RStoRM_StBit_4 3;
+BA_ "InvalidValue" SG_ 3221225472 IVI_UDB1_NOtoRM_StBit_5 "1";
+BA_ "GenSigSendType" SG_ 3221225472 IVI_UDB1_NOtoRM_StBit_5 3;
+BA_ "InvalidValue" SG_ 3221225472 IVI_UDB1_NO_StBit_6 "1";
+BA_ "GenSigSendType" SG_ 3221225472 IVI_UDB1_NO_StBit_6 3;
+BA_ "InvalidValue" SG_ 3221225472 IVI_UDB1_RM_StBit_7 "1";
+BA_ "GenSigSendType" SG_ 3221225472 IVI_UDB1_RM_StBit_7 3;
+BA_ "InvalidValue" SG_ 3221225472 IVI_UDB2_IGN_WUPBit_0 "1";
+BA_ "GenSigSendType" SG_ 3221225472 IVI_UDB2_IGN_WUPBit_0 3;
+BA_ "InvalidValue" SG_ 3221225472 IVI_UDB2_RESET_WUPBit_1 "1";
+BA_ "GenSigSendType" SG_ 3221225472 IVI_UDB2_RESET_WUPBit_1 3;
+BA_ "InvalidValue" SG_ 3221225472 IVI_UDB2_NM_WUPBit_2 "1";
+BA_ "GenSigSendType" SG_ 3221225472 IVI_UDB2_NM_WUPBit_2 3;
+BA_ "InvalidValue" SG_ 3221225472 IVI_UDB2_ECUSPEC_WUPBit_3 "1";
+BA_ "GenSigSendType" SG_ 3221225472 IVI_UDB2_ECUSPEC_WUPBit_3 3;
+BA_ "InvalidValue" SG_ 3221225472 IVI_UDB2_NM_AWAKEBit_4 "1";
+BA_ "GenSigSendType" SG_ 3221225472 IVI_UDB2_NM_AWAKEBit_4 3;
+BA_ "InvalidValue" SG_ 3221225472 IVI_UDB2_IGN_AWAKEBit_5 "1";
+BA_ "GenSigSendType" SG_ 3221225472 IVI_UDB2_IGN_AWAKEBit_5 3;
+BA_ "InvalidValue" SG_ 3221225472 IVI_UDB2_DIAG_AWAKEBit_6 "1";
+BA_ "GenSigSendType" SG_ 3221225472 IVI_UDB2_DIAG_AWAKEBit_6 3;
+BA_ "InvalidValue" SG_ 3221225472 IVI_UDB2_ECUSPEC_AWAKEBit_7 "1";
+BA_ "GenSigSendType" SG_ 3221225472 IVI_UDB2_ECUSPEC_AWAKEBit_7 3;
+BA_ "InvalidValue" SG_ 3221225472 IVI_UDB3_Bit_0 "1";
+BA_ "GenSigSendType" SG_ 3221225472 IVI_UDB3_Bit_0 3;
+BA_ "InvalidValue" SG_ 3221225472 IVI_UDB3_Bit_1 "1";
+BA_ "GenSigSendType" SG_ 3221225472 IVI_UDB3_Bit_1 3;
+BA_ "InvalidValue" SG_ 3221225472 IVI_UDB3_Bit_2 "1";
+BA_ "GenSigSendType" SG_ 3221225472 IVI_UDB3_Bit_2 3;
+BA_ "InvalidValue" SG_ 3221225472 IVI_UDB3_Bit_3 "1";
+BA_ "GenSigSendType" SG_ 3221225472 IVI_UDB3_Bit_3 3;
+BA_ "InvalidValue" SG_ 3221225472 IVI_UDB3_Bit_4 "1";
+BA_ "GenSigSendType" SG_ 3221225472 IVI_UDB3_Bit_4 3;
+BA_ "InvalidValue" SG_ 3221225472 IVI_UDB3_Bit_5 "1";
+BA_ "GenSigSendType" SG_ 3221225472 IVI_UDB3_Bit_5 3;
+BA_ "InvalidValue" SG_ 3221225472 IVI_UDB3_Bit_6 "1";
+BA_ "GenSigSendType" SG_ 3221225472 IVI_UDB3_Bit_6 3;
+BA_ "InvalidValue" SG_ 3221225472 IVI_UDB3_Bit_7 "1";
+BA_ "GenSigSendType" SG_ 3221225472 IVI_UDB3_Bit_7 3;
+BA_ "InvalidValue" SG_ 3221225472 IVI_UDB4_Bit_0 "1";
+BA_ "GenSigSendType" SG_ 3221225472 IVI_UDB4_Bit_0 3;
+BA_ "InvalidValue" SG_ 3221225472 IVI_UDB4_Bit_1 "1";
+BA_ "GenSigSendType" SG_ 3221225472 IVI_UDB4_Bit_1 3;
+BA_ "InvalidValue" SG_ 3221225472 IVI_UDB4_Bit_2 "1";
+BA_ "GenSigSendType" SG_ 3221225472 IVI_UDB4_Bit_2 3;
+BA_ "InvalidValue" SG_ 3221225472 IVI_UDB4_Bit_3 "1";
+BA_ "GenSigSendType" SG_ 3221225472 IVI_UDB4_Bit_3 3;
+BA_ "InvalidValue" SG_ 3221225472 IVI_UDB4_Bit_4 "1";
+BA_ "GenSigSendType" SG_ 3221225472 IVI_UDB4_Bit_4 3;
+BA_ "InvalidValue" SG_ 3221225472 IVI_UDB4_Bit_5 "1";
+BA_ "GenSigSendType" SG_ 3221225472 IVI_UDB4_Bit_5 3;
+BA_ "InvalidValue" SG_ 3221225472 IVI_UDB4_Bit_6 "1";
+BA_ "GenSigSendType" SG_ 3221225472 IVI_UDB4_Bit_6 3;
+BA_ "InvalidValue" SG_ 3221225472 IVI_UDB4_Bit_7 "1";
+BA_ "GenSigSendType" SG_ 3221225472 IVI_UDB4_Bit_7 3;
+BA_ "InvalidValue" SG_ 3221225472 IVI_UDB5_Bit_0 "1";
+BA_ "GenSigSendType" SG_ 3221225472 IVI_UDB5_Bit_0 3;
+BA_ "InvalidValue" SG_ 3221225472 IVI_UDB5_Bit_1 "1";
+BA_ "GenSigSendType" SG_ 3221225472 IVI_UDB5_Bit_1 3;
+BA_ "InvalidValue" SG_ 3221225472 IVI_UDB5_Bit_2 "1";
+BA_ "GenSigSendType" SG_ 3221225472 IVI_UDB5_Bit_2 3;
+BA_ "InvalidValue" SG_ 3221225472 IVI_UDB5_Bit_3 "1";
+BA_ "GenSigSendType" SG_ 3221225472 IVI_UDB5_Bit_3 3;
+BA_ "InvalidValue" SG_ 3221225472 IVI_UDB5_Bit_4 "1";
+BA_ "GenSigSendType" SG_ 3221225472 IVI_UDB5_Bit_4 3;
+BA_ "InvalidValue" SG_ 3221225472 IVI_UDB5_Bit_5 "1";
+BA_ "GenSigSendType" SG_ 3221225472 IVI_UDB5_Bit_5 3;
+BA_ "InvalidValue" SG_ 3221225472 IVI_UDB5_Bit_6 "1";
+BA_ "GenSigSendType" SG_ 3221225472 IVI_UDB5_Bit_6 3;
+BA_ "InvalidValue" SG_ 3221225472 IVI_UDB5_Bit_7 "1";
+BA_ "GenSigSendType" SG_ 3221225472 IVI_UDB5_Bit_7 3;
+BA_ "GenSigSendType" SG_ 3221225472 ZCUF_SrcNodeID 3;
+BA_ "GenSigSendType" SG_ 3221225472 ZCUF_CBV_ReptMsgBit_0 3;
+BA_ "GenSigSendType" SG_ 3221225472 ZCUF_CBV_ResdBit_1 3;
+BA_ "GenSigSendType" SG_ 3221225472 ZCUF_CBV_ResdBit_2 3;
+BA_ "GenSigSendType" SG_ 3221225472 ZCUF_CBV_NMCoordBit_3 3;
+BA_ "GenSigSendType" SG_ 3221225472 ZCUF_CBV_ActWakeBit_4 3;
+BA_ "GenSigSendType" SG_ 3221225472 ZCUF_CBV_ResdBit_5 3;
+BA_ "GenSigSendType" SG_ 3221225472 ZCUF_CBV_PNIBit_6 3;
+BA_ "GenSigSendType" SG_ 3221225472 ZCUF_CBV_ResdBit_7 3;
+BA_ "InvalidValue" SG_ 3221225472 ZCUF_UDB_0 "255";
+BA_ "GenSigSendType" SG_ 3221225472 ZCUF_UDB_0 3;
+BA_ "InvalidValue" SG_ 3221225472 ZCUF_UDB1_BStoRM_StBit_0 "1";
+BA_ "GenSigSendType" SG_ 3221225472 ZCUF_UDB1_BStoRM_StBit_0 3;
+BA_ "InvalidValue" SG_ 3221225472 ZCUF_UDB1_PBStoRM_StBit1 "1";
+BA_ "GenSigSendType" SG_ 3221225472 ZCUF_UDB1_PBStoRM_StBit1 3;
+BA_ "InvalidValue" SG_ 3221225472 ZCUF_UDB1_RMtoNO_StBit_2 "1";
+BA_ "GenSigSendType" SG_ 3221225472 ZCUF_UDB1_RMtoNO_StBit_2 3;
+BA_ "InvalidValue" SG_ 3221225472 ZCUF_UDB1_RStoNO_StBit_3 "1";
+BA_ "GenSigSendType" SG_ 3221225472 ZCUF_UDB1_RStoNO_StBit_3 3;
+BA_ "InvalidValue" SG_ 3221225472 ZCUF_UDB1_RStoRM_StBit_4 "1";
+BA_ "GenSigSendType" SG_ 3221225472 ZCUF_UDB1_RStoRM_StBit_4 3;
+BA_ "InvalidValue" SG_ 3221225472 ZCUF_UDB1_NOtoRM_StBit_5 "1";
+BA_ "GenSigSendType" SG_ 3221225472 ZCUF_UDB1_NOtoRM_StBit_5 3;
+BA_ "InvalidValue" SG_ 3221225472 ZCUF_UDB1_NO_StBit_6 "1";
+BA_ "GenSigSendType" SG_ 3221225472 ZCUF_UDB1_NO_StBit_6 3;
+BA_ "InvalidValue" SG_ 3221225472 ZCUF_UDB1_RM_StBit_7 "1";
+BA_ "GenSigSendType" SG_ 3221225472 ZCUF_UDB1_RM_StBit_7 3;
+BA_ "InvalidValue" SG_ 3221225472 ZCUF_UDB2_IGN_WUPBit_0 "1";
+BA_ "GenSigSendType" SG_ 3221225472 ZCUF_UDB2_IGN_WUPBit_0 3;
+BA_ "InvalidValue" SG_ 3221225472 ZCUF_UDB2_RESET_WUPBit_1 "1";
+BA_ "GenSigSendType" SG_ 3221225472 ZCUF_UDB2_RESET_WUPBit_1 3;
+BA_ "InvalidValue" SG_ 3221225472 ZCUF_UDB2_NM_WUPBit_2 "1";
+BA_ "GenSigSendType" SG_ 3221225472 ZCUF_UDB2_NM_WUPBit_2 3;
+BA_ "InvalidValue" SG_ 3221225472 ZCUF_UDB2_ECUSPEC_WUPBit_3 "1";
+BA_ "GenSigSendType" SG_ 3221225472 ZCUF_UDB2_ECUSPEC_WUPBit_3 3;
+BA_ "InvalidValue" SG_ 3221225472 ZCUF_UDB2_NM_AWAKEBit_4 "1";
+BA_ "GenSigSendType" SG_ 3221225472 ZCUF_UDB2_NM_AWAKEBit_4 3;
+BA_ "InvalidValue" SG_ 3221225472 ZCUF_UDB2_IGN_AWAKEBit_5 "1";
+BA_ "GenSigSendType" SG_ 3221225472 ZCUF_UDB2_IGN_AWAKEBit_5 3;
+BA_ "InvalidValue" SG_ 3221225472 ZCUF_UDB2_DIAG_AWAKEBit_6 "1";
+BA_ "GenSigSendType" SG_ 3221225472 ZCUF_UDB2_DIAG_AWAKEBit_6 3;
+BA_ "InvalidValue" SG_ 3221225472 ZCUF_UDB2_ECUSPEC_AWKEBit7 "1";
+BA_ "GenSigSendType" SG_ 3221225472 ZCUF_UDB2_ECUSPEC_AWKEBit7 3;
+BA_ "InvalidValue" SG_ 3221225472 ZCUF_UDB3_Bit_0 "1";
+BA_ "GenSigSendType" SG_ 3221225472 ZCUF_UDB3_Bit_0 3;
+BA_ "InvalidValue" SG_ 3221225472 ZCUF_UDB3_Bit_1 "1";
+BA_ "GenSigSendType" SG_ 3221225472 ZCUF_UDB3_Bit_1 3;
+BA_ "InvalidValue" SG_ 3221225472 ZCUF_UDB3_Bit_2 "1";
+BA_ "GenSigSendType" SG_ 3221225472 ZCUF_UDB3_Bit_2 3;
+BA_ "InvalidValue" SG_ 3221225472 ZCUF_UDB3_Bit_3 "1";
+BA_ "GenSigSendType" SG_ 3221225472 ZCUF_UDB3_Bit_3 3;
+BA_ "InvalidValue" SG_ 3221225472 ZCUF_UDB3_Bit_4 "1";
+BA_ "GenSigSendType" SG_ 3221225472 ZCUF_UDB3_Bit_4 3;
+BA_ "InvalidValue" SG_ 3221225472 ZCUF_UDB3_Bit_5 "1";
+BA_ "GenSigSendType" SG_ 3221225472 ZCUF_UDB3_Bit_5 3;
+BA_ "InvalidValue" SG_ 3221225472 ZCUF_UDB3_Bit_6 "1";
+BA_ "GenSigSendType" SG_ 3221225472 ZCUF_UDB3_Bit_6 3;
+BA_ "InvalidValue" SG_ 3221225472 ZCUF_UDB3_Bit_7 "1";
+BA_ "GenSigSendType" SG_ 3221225472 ZCUF_UDB3_Bit_7 3;
+BA_ "InvalidValue" SG_ 3221225472 ZCUF_UDB4_Bit_0 "1";
+BA_ "GenSigSendType" SG_ 3221225472 ZCUF_UDB4_Bit_0 3;
+BA_ "InvalidValue" SG_ 3221225472 ZCUF_UDB4_Bit_1 "1";
+BA_ "GenSigSendType" SG_ 3221225472 ZCUF_UDB4_Bit_1 3;
+BA_ "InvalidValue" SG_ 3221225472 ZCUF_UDB4_Bit_2 "1";
+BA_ "GenSigSendType" SG_ 3221225472 ZCUF_UDB4_Bit_2 3;
+BA_ "InvalidValue" SG_ 3221225472 ZCUF_UDB4_Bit_3 "1";
+BA_ "GenSigSendType" SG_ 3221225472 ZCUF_UDB4_Bit_3 3;
+BA_ "InvalidValue" SG_ 3221225472 ZCUF_UDB4_Bit_4 "1";
+BA_ "GenSigSendType" SG_ 3221225472 ZCUF_UDB4_Bit_4 3;
+BA_ "InvalidValue" SG_ 3221225472 ZCUF_UDB4_Bit_5 "1";
+BA_ "GenSigSendType" SG_ 3221225472 ZCUF_UDB4_Bit_5 3;
+BA_ "InvalidValue" SG_ 3221225472 ZCUF_UDB4_Bit_6 "1";
+BA_ "GenSigSendType" SG_ 3221225472 ZCUF_UDB4_Bit_6 3;
+BA_ "InvalidValue" SG_ 3221225472 ZCUF_UDB4_Bit_7 "1";
+BA_ "GenSigSendType" SG_ 3221225472 ZCUF_UDB4_Bit_7 3;
+BA_ "InvalidValue" SG_ 3221225472 ZCUF_UDB5_Bit_0 "1";
+BA_ "GenSigSendType" SG_ 3221225472 ZCUF_UDB5_Bit_0 3;
+BA_ "InvalidValue" SG_ 3221225472 ZCUF_UDB5_Bit_1 "1";
+BA_ "GenSigSendType" SG_ 3221225472 ZCUF_UDB5_Bit_1 3;
+BA_ "InvalidValue" SG_ 3221225472 ZCUF_UDB5_Bit_2 "1";
+BA_ "GenSigSendType" SG_ 3221225472 ZCUF_UDB5_Bit_2 3;
+BA_ "InvalidValue" SG_ 3221225472 ZCUF_UDB5_Bit_3 "1";
+BA_ "GenSigSendType" SG_ 3221225472 ZCUF_UDB5_Bit_3 3;
+BA_ "InvalidValue" SG_ 3221225472 ZCUF_UDB5_Bit_4 "1";
+BA_ "GenSigSendType" SG_ 3221225472 ZCUF_UDB5_Bit_4 3;
+BA_ "InvalidValue" SG_ 3221225472 ZCUF_UDB5_Bit_5 "1";
+BA_ "GenSigSendType" SG_ 3221225472 ZCUF_UDB5_Bit_5 3;
+BA_ "InvalidValue" SG_ 3221225472 ZCUF_UDB5_Bit_6 "1";
+BA_ "GenSigSendType" SG_ 3221225472 ZCUF_UDB5_Bit_6 3;
+BA_ "InvalidValue" SG_ 3221225472 ZCUF_UDB5_Bit_7 "1";
+BA_ "GenSigSendType" SG_ 3221225472 ZCUF_UDB5_Bit_7 3;
 BA_ "GenSigSendType" SG_ 1663 OBD_FuncDiagResp_Byte0 3;
 BA_ "GenSigSendType" SG_ 1663 OBD_FuncDiagResp_Byte1 3;
 BA_ "GenSigSendType" SG_ 1663 OBD_FuncDiagResp_Byte2 3;
@@ -4914,188 +5081,6 @@ BA_ "GenSigSendType" SG_ 1179 Drvmc_Mode_Req 2;
 BA_ "InvalidValue" SG_ 1179 Eshift_TagtGear_Req "7";
 BA_ "GenSigTimeoutTime" SG_ 1179 Eshift_TagtGear_Req 10000;
 BA_ "GenSigSendType" SG_ 1179 Eshift_TagtGear_Req 2;
-BA_ "GenSigSendType" SG_ 1282 IVI_SrcNodeID 3;
-BA_ "GenSigSendType" SG_ 1282 IVI_CBV_ReptMsgBit_0 3;
-BA_ "GenSigSendType" SG_ 1282 IVI_CBV_ResdBit_1 3;
-BA_ "GenSigSendType" SG_ 1282 IVI_CBV_ResdBit_2 3;
-BA_ "GenSigSendType" SG_ 1282 IVI_CBV_NMCoordBit_3 3;
-BA_ "GenSigSendType" SG_ 1282 IVI_CBV_ActWakeBit_4 3;
-BA_ "GenSigSendType" SG_ 1282 IVI_CBV_ResdBit_5 3;
-BA_ "GenSigSendType" SG_ 1282 IVI_CBV_PNIBit_6 3;
-BA_ "GenSigSendType" SG_ 1282 IVI_CBV_ResdBit_7 3;
-BA_ "InvalidValue" SG_ 1282 IVI_UDB_0 "255";
-BA_ "GenSigSendType" SG_ 1282 IVI_UDB_0 3;
-BA_ "InvalidValue" SG_ 1282 IVI_UDB1_BStoRM_StBit_0 "1";
-BA_ "GenSigSendType" SG_ 1282 IVI_UDB1_BStoRM_StBit_0 3;
-BA_ "InvalidValue" SG_ 1282 IVI_UDB1_PBStoRM_StBit_1 "1";
-BA_ "GenSigSendType" SG_ 1282 IVI_UDB1_PBStoRM_StBit_1 3;
-BA_ "InvalidValue" SG_ 1282 IVI_UDB1_RMtoNO_StBit_2 "1";
-BA_ "GenSigSendType" SG_ 1282 IVI_UDB1_RMtoNO_StBit_2 3;
-BA_ "InvalidValue" SG_ 1282 IVI_UDB1_RStoNO_StBit_3 "1";
-BA_ "GenSigSendType" SG_ 1282 IVI_UDB1_RStoNO_StBit_3 3;
-BA_ "InvalidValue" SG_ 1282 IVI_UDB1_RStoRM_StBit_4 "1";
-BA_ "GenSigSendType" SG_ 1282 IVI_UDB1_RStoRM_StBit_4 3;
-BA_ "InvalidValue" SG_ 1282 IVI_UDB1_NOtoRM_StBit_5 "1";
-BA_ "GenSigSendType" SG_ 1282 IVI_UDB1_NOtoRM_StBit_5 3;
-BA_ "InvalidValue" SG_ 1282 IVI_UDB1_NO_StBit_6 "1";
-BA_ "GenSigSendType" SG_ 1282 IVI_UDB1_NO_StBit_6 3;
-BA_ "InvalidValue" SG_ 1282 IVI_UDB1_RM_StBit_7 "1";
-BA_ "GenSigSendType" SG_ 1282 IVI_UDB1_RM_StBit_7 3;
-BA_ "InvalidValue" SG_ 1282 IVI_UDB2_IGN_WUPBit_0 "1";
-BA_ "GenSigSendType" SG_ 1282 IVI_UDB2_IGN_WUPBit_0 3;
-BA_ "InvalidValue" SG_ 1282 IVI_UDB2_RESET_WUPBit_1 "1";
-BA_ "GenSigSendType" SG_ 1282 IVI_UDB2_RESET_WUPBit_1 3;
-BA_ "InvalidValue" SG_ 1282 IVI_UDB2_NM_WUPBit_2 "1";
-BA_ "GenSigSendType" SG_ 1282 IVI_UDB2_NM_WUPBit_2 3;
-BA_ "InvalidValue" SG_ 1282 IVI_UDB2_ECUSPEC_WUPBit_3 "1";
-BA_ "GenSigSendType" SG_ 1282 IVI_UDB2_ECUSPEC_WUPBit_3 3;
-BA_ "InvalidValue" SG_ 1282 IVI_UDB2_NM_AWAKEBit_4 "1";
-BA_ "GenSigSendType" SG_ 1282 IVI_UDB2_NM_AWAKEBit_4 3;
-BA_ "InvalidValue" SG_ 1282 IVI_UDB2_IGN_AWAKEBit_5 "1";
-BA_ "GenSigSendType" SG_ 1282 IVI_UDB2_IGN_AWAKEBit_5 3;
-BA_ "InvalidValue" SG_ 1282 IVI_UDB2_DIAG_AWAKEBit_6 "1";
-BA_ "GenSigSendType" SG_ 1282 IVI_UDB2_DIAG_AWAKEBit_6 3;
-BA_ "InvalidValue" SG_ 1282 IVI_UDB2_ECUSPEC_AWAKEBit_7 "1";
-BA_ "GenSigSendType" SG_ 1282 IVI_UDB2_ECUSPEC_AWAKEBit_7 3;
-BA_ "InvalidValue" SG_ 1282 IVI_UDB3_Bit_0 "1";
-BA_ "GenSigSendType" SG_ 1282 IVI_UDB3_Bit_0 3;
-BA_ "InvalidValue" SG_ 1282 IVI_UDB3_Bit_1 "1";
-BA_ "GenSigSendType" SG_ 1282 IVI_UDB3_Bit_1 3;
-BA_ "InvalidValue" SG_ 1282 IVI_UDB3_Bit_2 "1";
-BA_ "GenSigSendType" SG_ 1282 IVI_UDB3_Bit_2 3;
-BA_ "InvalidValue" SG_ 1282 IVI_UDB3_Bit_3 "1";
-BA_ "GenSigSendType" SG_ 1282 IVI_UDB3_Bit_3 3;
-BA_ "InvalidValue" SG_ 1282 IVI_UDB3_Bit_4 "1";
-BA_ "GenSigSendType" SG_ 1282 IVI_UDB3_Bit_4 3;
-BA_ "InvalidValue" SG_ 1282 IVI_UDB3_Bit_5 "1";
-BA_ "GenSigSendType" SG_ 1282 IVI_UDB3_Bit_5 3;
-BA_ "InvalidValue" SG_ 1282 IVI_UDB3_Bit_6 "1";
-BA_ "GenSigSendType" SG_ 1282 IVI_UDB3_Bit_6 3;
-BA_ "InvalidValue" SG_ 1282 IVI_UDB3_Bit_7 "1";
-BA_ "GenSigSendType" SG_ 1282 IVI_UDB3_Bit_7 3;
-BA_ "InvalidValue" SG_ 1282 IVI_UDB4_Bit_0 "1";
-BA_ "GenSigSendType" SG_ 1282 IVI_UDB4_Bit_0 3;
-BA_ "InvalidValue" SG_ 1282 IVI_UDB4_Bit_1 "1";
-BA_ "GenSigSendType" SG_ 1282 IVI_UDB4_Bit_1 3;
-BA_ "InvalidValue" SG_ 1282 IVI_UDB4_Bit_2 "1";
-BA_ "GenSigSendType" SG_ 1282 IVI_UDB4_Bit_2 3;
-BA_ "InvalidValue" SG_ 1282 IVI_UDB4_Bit_3 "1";
-BA_ "GenSigSendType" SG_ 1282 IVI_UDB4_Bit_3 3;
-BA_ "InvalidValue" SG_ 1282 IVI_UDB4_Bit_4 "1";
-BA_ "GenSigSendType" SG_ 1282 IVI_UDB4_Bit_4 3;
-BA_ "InvalidValue" SG_ 1282 IVI_UDB4_Bit_5 "1";
-BA_ "GenSigSendType" SG_ 1282 IVI_UDB4_Bit_5 3;
-BA_ "InvalidValue" SG_ 1282 IVI_UDB4_Bit_6 "1";
-BA_ "GenSigSendType" SG_ 1282 IVI_UDB4_Bit_6 3;
-BA_ "InvalidValue" SG_ 1282 IVI_UDB4_Bit_7 "1";
-BA_ "GenSigSendType" SG_ 1282 IVI_UDB4_Bit_7 3;
-BA_ "InvalidValue" SG_ 1282 IVI_UDB5_Bit_0 "1";
-BA_ "GenSigSendType" SG_ 1282 IVI_UDB5_Bit_0 3;
-BA_ "InvalidValue" SG_ 1282 IVI_UDB5_Bit_1 "1";
-BA_ "GenSigSendType" SG_ 1282 IVI_UDB5_Bit_1 3;
-BA_ "InvalidValue" SG_ 1282 IVI_UDB5_Bit_2 "1";
-BA_ "GenSigSendType" SG_ 1282 IVI_UDB5_Bit_2 3;
-BA_ "InvalidValue" SG_ 1282 IVI_UDB5_Bit_3 "1";
-BA_ "GenSigSendType" SG_ 1282 IVI_UDB5_Bit_3 3;
-BA_ "InvalidValue" SG_ 1282 IVI_UDB5_Bit_4 "1";
-BA_ "GenSigSendType" SG_ 1282 IVI_UDB5_Bit_4 3;
-BA_ "InvalidValue" SG_ 1282 IVI_UDB5_Bit_5 "1";
-BA_ "GenSigSendType" SG_ 1282 IVI_UDB5_Bit_5 3;
-BA_ "InvalidValue" SG_ 1282 IVI_UDB5_Bit_6 "1";
-BA_ "GenSigSendType" SG_ 1282 IVI_UDB5_Bit_6 3;
-BA_ "InvalidValue" SG_ 1282 IVI_UDB5_Bit_7 "1";
-BA_ "GenSigSendType" SG_ 1282 IVI_UDB5_Bit_7 3;
-BA_ "GenSigSendType" SG_ 1285 ZCUF_SrcNodeID 3;
-BA_ "GenSigSendType" SG_ 1285 ZCUF_CBV_ReptMsgBit_0 3;
-BA_ "GenSigSendType" SG_ 1285 ZCUF_CBV_ResdBit_1 3;
-BA_ "GenSigSendType" SG_ 1285 ZCUF_CBV_ResdBit_2 3;
-BA_ "GenSigSendType" SG_ 1285 ZCUF_CBV_NMCoordBit_3 3;
-BA_ "GenSigSendType" SG_ 1285 ZCUF_CBV_ActWakeBit_4 3;
-BA_ "GenSigSendType" SG_ 1285 ZCUF_CBV_ResdBit_5 3;
-BA_ "GenSigSendType" SG_ 1285 ZCUF_CBV_PNIBit_6 3;
-BA_ "GenSigSendType" SG_ 1285 ZCUF_CBV_ResdBit_7 3;
-BA_ "InvalidValue" SG_ 1285 ZCUF_UDB_0 "255";
-BA_ "GenSigSendType" SG_ 1285 ZCUF_UDB_0 3;
-BA_ "InvalidValue" SG_ 1285 ZCUF_UDB1_BStoRM_StBit_0 "1";
-BA_ "GenSigSendType" SG_ 1285 ZCUF_UDB1_BStoRM_StBit_0 3;
-BA_ "InvalidValue" SG_ 1285 ZCUF_UDB1_PBStoRM_StBit1 "1";
-BA_ "GenSigSendType" SG_ 1285 ZCUF_UDB1_PBStoRM_StBit1 3;
-BA_ "InvalidValue" SG_ 1285 ZCUF_UDB1_RMtoNO_StBit_2 "1";
-BA_ "GenSigSendType" SG_ 1285 ZCUF_UDB1_RMtoNO_StBit_2 3;
-BA_ "InvalidValue" SG_ 1285 ZCUF_UDB1_RStoNO_StBit_3 "1";
-BA_ "GenSigSendType" SG_ 1285 ZCUF_UDB1_RStoNO_StBit_3 3;
-BA_ "InvalidValue" SG_ 1285 ZCUF_UDB1_RStoRM_StBit_4 "1";
-BA_ "GenSigSendType" SG_ 1285 ZCUF_UDB1_RStoRM_StBit_4 3;
-BA_ "InvalidValue" SG_ 1285 ZCUF_UDB1_NOtoRM_StBit_5 "1";
-BA_ "GenSigSendType" SG_ 1285 ZCUF_UDB1_NOtoRM_StBit_5 3;
-BA_ "InvalidValue" SG_ 1285 ZCUF_UDB1_NO_StBit_6 "1";
-BA_ "GenSigSendType" SG_ 1285 ZCUF_UDB1_NO_StBit_6 3;
-BA_ "InvalidValue" SG_ 1285 ZCUF_UDB1_RM_StBit_7 "1";
-BA_ "GenSigSendType" SG_ 1285 ZCUF_UDB1_RM_StBit_7 3;
-BA_ "InvalidValue" SG_ 1285 ZCUF_UDB2_IGN_WUPBit_0 "1";
-BA_ "GenSigSendType" SG_ 1285 ZCUF_UDB2_IGN_WUPBit_0 3;
-BA_ "InvalidValue" SG_ 1285 ZCUF_UDB2_RESET_WUPBit_1 "1";
-BA_ "GenSigSendType" SG_ 1285 ZCUF_UDB2_RESET_WUPBit_1 3;
-BA_ "InvalidValue" SG_ 1285 ZCUF_UDB2_NM_WUPBit_2 "1";
-BA_ "GenSigSendType" SG_ 1285 ZCUF_UDB2_NM_WUPBit_2 3;
-BA_ "InvalidValue" SG_ 1285 ZCUF_UDB2_ECUSPEC_WUPBit_3 "1";
-BA_ "GenSigSendType" SG_ 1285 ZCUF_UDB2_ECUSPEC_WUPBit_3 3;
-BA_ "InvalidValue" SG_ 1285 ZCUF_UDB2_NM_AWAKEBit_4 "1";
-BA_ "GenSigSendType" SG_ 1285 ZCUF_UDB2_NM_AWAKEBit_4 3;
-BA_ "InvalidValue" SG_ 1285 ZCUF_UDB2_IGN_AWAKEBit_5 "1";
-BA_ "GenSigSendType" SG_ 1285 ZCUF_UDB2_IGN_AWAKEBit_5 3;
-BA_ "InvalidValue" SG_ 1285 ZCUF_UDB2_DIAG_AWAKEBit_6 "1";
-BA_ "GenSigSendType" SG_ 1285 ZCUF_UDB2_DIAG_AWAKEBit_6 3;
-BA_ "InvalidValue" SG_ 1285 ZCUF_UDB2_ECUSPEC_AWKEBit7 "1";
-BA_ "GenSigSendType" SG_ 1285 ZCUF_UDB2_ECUSPEC_AWKEBit7 3;
-BA_ "InvalidValue" SG_ 1285 ZCUF_UDB3_Bit_0 "1";
-BA_ "GenSigSendType" SG_ 1285 ZCUF_UDB3_Bit_0 3;
-BA_ "InvalidValue" SG_ 1285 ZCUF_UDB3_Bit_1 "1";
-BA_ "GenSigSendType" SG_ 1285 ZCUF_UDB3_Bit_1 3;
-BA_ "InvalidValue" SG_ 1285 ZCUF_UDB3_Bit_2 "1";
-BA_ "GenSigSendType" SG_ 1285 ZCUF_UDB3_Bit_2 3;
-BA_ "InvalidValue" SG_ 1285 ZCUF_UDB3_Bit_3 "1";
-BA_ "GenSigSendType" SG_ 1285 ZCUF_UDB3_Bit_3 3;
-BA_ "InvalidValue" SG_ 1285 ZCUF_UDB3_Bit_4 "1";
-BA_ "GenSigSendType" SG_ 1285 ZCUF_UDB3_Bit_4 3;
-BA_ "InvalidValue" SG_ 1285 ZCUF_UDB3_Bit_5 "1";
-BA_ "GenSigSendType" SG_ 1285 ZCUF_UDB3_Bit_5 3;
-BA_ "InvalidValue" SG_ 1285 ZCUF_UDB3_Bit_6 "1";
-BA_ "GenSigSendType" SG_ 1285 ZCUF_UDB3_Bit_6 3;
-BA_ "InvalidValue" SG_ 1285 ZCUF_UDB3_Bit_7 "1";
-BA_ "GenSigSendType" SG_ 1285 ZCUF_UDB3_Bit_7 3;
-BA_ "InvalidValue" SG_ 1285 ZCUF_UDB4_Bit_0 "1";
-BA_ "GenSigSendType" SG_ 1285 ZCUF_UDB4_Bit_0 3;
-BA_ "InvalidValue" SG_ 1285 ZCUF_UDB4_Bit_1 "1";
-BA_ "GenSigSendType" SG_ 1285 ZCUF_UDB4_Bit_1 3;
-BA_ "InvalidValue" SG_ 1285 ZCUF_UDB4_Bit_2 "1";
-BA_ "GenSigSendType" SG_ 1285 ZCUF_UDB4_Bit_2 3;
-BA_ "InvalidValue" SG_ 1285 ZCUF_UDB4_Bit_3 "1";
-BA_ "GenSigSendType" SG_ 1285 ZCUF_UDB4_Bit_3 3;
-BA_ "InvalidValue" SG_ 1285 ZCUF_UDB4_Bit_4 "1";
-BA_ "GenSigSendType" SG_ 1285 ZCUF_UDB4_Bit_4 3;
-BA_ "InvalidValue" SG_ 1285 ZCUF_UDB4_Bit_5 "1";
-BA_ "GenSigSendType" SG_ 1285 ZCUF_UDB4_Bit_5 3;
-BA_ "InvalidValue" SG_ 1285 ZCUF_UDB4_Bit_6 "1";
-BA_ "GenSigSendType" SG_ 1285 ZCUF_UDB4_Bit_6 3;
-BA_ "InvalidValue" SG_ 1285 ZCUF_UDB4_Bit_7 "1";
-BA_ "GenSigSendType" SG_ 1285 ZCUF_UDB4_Bit_7 3;
-BA_ "InvalidValue" SG_ 1285 ZCUF_UDB5_Bit_0 "1";
-BA_ "GenSigSendType" SG_ 1285 ZCUF_UDB5_Bit_0 3;
-BA_ "InvalidValue" SG_ 1285 ZCUF_UDB5_Bit_1 "1";
-BA_ "GenSigSendType" SG_ 1285 ZCUF_UDB5_Bit_1 3;
-BA_ "InvalidValue" SG_ 1285 ZCUF_UDB5_Bit_2 "1";
-BA_ "GenSigSendType" SG_ 1285 ZCUF_UDB5_Bit_2 3;
-BA_ "InvalidValue" SG_ 1285 ZCUF_UDB5_Bit_3 "1";
-BA_ "GenSigSendType" SG_ 1285 ZCUF_UDB5_Bit_3 3;
-BA_ "InvalidValue" SG_ 1285 ZCUF_UDB5_Bit_4 "1";
-BA_ "GenSigSendType" SG_ 1285 ZCUF_UDB5_Bit_4 3;
-BA_ "InvalidValue" SG_ 1285 ZCUF_UDB5_Bit_5 "1";
-BA_ "GenSigSendType" SG_ 1285 ZCUF_UDB5_Bit_5 3;
-BA_ "InvalidValue" SG_ 1285 ZCUF_UDB5_Bit_6 "1";
-BA_ "GenSigSendType" SG_ 1285 ZCUF_UDB5_Bit_6 3;
-BA_ "InvalidValue" SG_ 1285 ZCUF_UDB5_Bit_7 "1";
-BA_ "GenSigSendType" SG_ 1285 ZCUF_UDB5_Bit_7 3;
 BA_ "GenSigTimeoutTime" SG_ 1411 CRC_TBOX_Warning 10000;
 BA_ "GenSigStartValue" SG_ 1411 CRC_TBOX_Warning 0;
 BA_ "GenSigSendType" SG_ 1411 CRC_TBOX_Warning 0;
@@ -6190,6 +6175,48 @@ BA_ "GenSigSendType" SG_ 1791 OBD_FuncDiagReq_Byte4 3;
 BA_ "GenSigSendType" SG_ 1791 OBD_FuncDiagReq_Byte5 3;
 BA_ "GenSigSendType" SG_ 1791 OBD_FuncDiagReq_Byte6 3;
 BA_ "GenSigSendType" SG_ 1791 OBD_FuncDiagReq_Byte7 3;
+VAL_ 3221225472 IVI_CBV_ReptMsgBit_0 0 "False" 1 "True" ;
+VAL_ 3221225472 IVI_CBV_NMCoordBit_3 0 "False" 1 "True" ;
+VAL_ 3221225472 IVI_CBV_ActWakeBit_4 0 "No" 1 "Yes" ;
+VAL_ 3221225472 IVI_CBV_PNIBit_6 0 "No" 1 "Yes" ;
+VAL_ 3221225472 IVI_UDB_0 255 "NotAvailabe" ;
+VAL_ 3221225472 IVI_UDB1_BStoRM_StBit_0 0 "No" 1 "Yes" ;
+VAL_ 3221225472 IVI_UDB1_PBStoRM_StBit_1 0 "No" 1 "Yes" ;
+VAL_ 3221225472 IVI_UDB1_RMtoNO_StBit_2 0 "No" 1 "Yes" ;
+VAL_ 3221225472 IVI_UDB1_RStoNO_StBit_3 0 "No" 1 "Yes" ;
+VAL_ 3221225472 IVI_UDB1_RStoRM_StBit_4 0 "No" 1 "Yes" ;
+VAL_ 3221225472 IVI_UDB1_NOtoRM_StBit_5 0 "No" 1 "Yes" ;
+VAL_ 3221225472 IVI_UDB1_NO_StBit_6 0 "No" 1 "Yes" ;
+VAL_ 3221225472 IVI_UDB1_RM_StBit_7 0 "No" 1 "Yes" ;
+VAL_ 3221225472 IVI_UDB2_IGN_WUPBit_0 0 "Inactive" 1 "Active" ;
+VAL_ 3221225472 IVI_UDB2_RESET_WUPBit_1 0 "Inactive" 1 "Active" ;
+VAL_ 3221225472 IVI_UDB2_NM_WUPBit_2 0 "Inactive" 1 "Active" ;
+VAL_ 3221225472 IVI_UDB2_ECUSPEC_WUPBit_3 0 "Inactive" 1 "Active" ;
+VAL_ 3221225472 IVI_UDB2_NM_AWAKEBit_4 0 "Inactive" 1 "Active" ;
+VAL_ 3221225472 IVI_UDB2_IGN_AWAKEBit_5 0 "Inactive" 1 "Active" ;
+VAL_ 3221225472 IVI_UDB2_DIAG_AWAKEBit_6 0 "Inactive" 1 "Active" ;
+VAL_ 3221225472 IVI_UDB2_ECUSPEC_AWAKEBit_7 0 "Inactive" 1 "Active" ;
+VAL_ 3221225472 ZCUF_CBV_ReptMsgBit_0 0 "False" 1 "True" ;
+VAL_ 3221225472 ZCUF_CBV_NMCoordBit_3 0 "False" 1 "True" ;
+VAL_ 3221225472 ZCUF_CBV_ActWakeBit_4 0 "No" 1 "Yes" ;
+VAL_ 3221225472 ZCUF_CBV_PNIBit_6 0 "No" 1 "Yes" ;
+VAL_ 3221225472 ZCUF_UDB_0 255 "NotAvailabe" ;
+VAL_ 3221225472 ZCUF_UDB1_BStoRM_StBit_0 0 "No" 1 "Yes" ;
+VAL_ 3221225472 ZCUF_UDB1_PBStoRM_StBit1 0 "No" 1 "Yes" ;
+VAL_ 3221225472 ZCUF_UDB1_RMtoNO_StBit_2 0 "No" 1 "Yes" ;
+VAL_ 3221225472 ZCUF_UDB1_RStoNO_StBit_3 0 "No" 1 "Yes" ;
+VAL_ 3221225472 ZCUF_UDB1_RStoRM_StBit_4 0 "No" 1 "Yes" ;
+VAL_ 3221225472 ZCUF_UDB1_NOtoRM_StBit_5 0 "No" 1 "Yes" ;
+VAL_ 3221225472 ZCUF_UDB1_NO_StBit_6 0 "No" 1 "Yes" ;
+VAL_ 3221225472 ZCUF_UDB1_RM_StBit_7 0 "No" 1 "Yes" ;
+VAL_ 3221225472 ZCUF_UDB2_IGN_WUPBit_0 0 "Inactive" 1 "Active" ;
+VAL_ 3221225472 ZCUF_UDB2_RESET_WUPBit_1 0 "Inactive" 1 "Active" ;
+VAL_ 3221225472 ZCUF_UDB2_NM_WUPBit_2 0 "Inactive" 1 "Active" ;
+VAL_ 3221225472 ZCUF_UDB2_ECUSPEC_WUPBit_3 0 "Inactive" 1 "Active" ;
+VAL_ 3221225472 ZCUF_UDB2_NM_AWAKEBit_4 0 "Inactive" 1 "Active" ;
+VAL_ 3221225472 ZCUF_UDB2_IGN_AWAKEBit_5 0 "Inactive" 1 "Active" ;
+VAL_ 3221225472 ZCUF_UDB2_DIAG_AWAKEBit_6 0 "Inactive" 1 "Active" ;
+VAL_ 3221225472 ZCUF_UDB2_ECUSPEC_AWKEBit7 0 "Inactive" 1 "Active" ;
 VAL_ 99 AlvCtr_ACM_CrashStat 15 "Invalid Value" ;
 VAL_ 99 Airbg_CrashSts 0 "No_Crash" 1 "Crash" 2 "Error" 3 "NotAvailable" ;
 VAL_ 102 AlvCtr_EPS_SFA_SteerWhl_Pub_Info 15 "Invalid Value" ;
@@ -6514,48 +6541,6 @@ VAL_ 1179 Drvmc_Mode_Req 0 "EcoPlus" 1 "Eco" 2 "Normal
 " 3 "Sport" 4 "SportsPlus" 5 "Sand_Off
 " 6 "Reserve" 7 "NotAvailable" ;
 VAL_ 1179 Eshift_TagtGear_Req 0 "Park" 1 "Reverse" 2 "Neutral" 3 "Drive" 4 "Reserved" 5 "Reserved" 6 "Error" 7 "NotAvailable" ;
-VAL_ 1282 IVI_CBV_ReptMsgBit_0 0 "False" 1 "True" ;
-VAL_ 1282 IVI_CBV_NMCoordBit_3 0 "False" 1 "True" ;
-VAL_ 1282 IVI_CBV_ActWakeBit_4 0 "No" 1 "Yes" ;
-VAL_ 1282 IVI_CBV_PNIBit_6 0 "No" 1 "Yes" ;
-VAL_ 1282 IVI_UDB_0 255 "NotAvailabe" ;
-VAL_ 1282 IVI_UDB1_BStoRM_StBit_0 0 "No" 1 "Yes" ;
-VAL_ 1282 IVI_UDB1_PBStoRM_StBit_1 0 "No" 1 "Yes" ;
-VAL_ 1282 IVI_UDB1_RMtoNO_StBit_2 0 "No" 1 "Yes" ;
-VAL_ 1282 IVI_UDB1_RStoNO_StBit_3 0 "No" 1 "Yes" ;
-VAL_ 1282 IVI_UDB1_RStoRM_StBit_4 0 "No" 1 "Yes" ;
-VAL_ 1282 IVI_UDB1_NOtoRM_StBit_5 0 "No" 1 "Yes" ;
-VAL_ 1282 IVI_UDB1_NO_StBit_6 0 "No" 1 "Yes" ;
-VAL_ 1282 IVI_UDB1_RM_StBit_7 0 "No" 1 "Yes" ;
-VAL_ 1282 IVI_UDB2_IGN_WUPBit_0 0 "Inactive" 1 "Active" ;
-VAL_ 1282 IVI_UDB2_RESET_WUPBit_1 0 "Inactive" 1 "Active" ;
-VAL_ 1282 IVI_UDB2_NM_WUPBit_2 0 "Inactive" 1 "Active" ;
-VAL_ 1282 IVI_UDB2_ECUSPEC_WUPBit_3 0 "Inactive" 1 "Active" ;
-VAL_ 1282 IVI_UDB2_NM_AWAKEBit_4 0 "Inactive" 1 "Active" ;
-VAL_ 1282 IVI_UDB2_IGN_AWAKEBit_5 0 "Inactive" 1 "Active" ;
-VAL_ 1282 IVI_UDB2_DIAG_AWAKEBit_6 0 "Inactive" 1 "Active" ;
-VAL_ 1282 IVI_UDB2_ECUSPEC_AWAKEBit_7 0 "Inactive" 1 "Active" ;
-VAL_ 1285 ZCUF_CBV_ReptMsgBit_0 0 "False" 1 "True" ;
-VAL_ 1285 ZCUF_CBV_NMCoordBit_3 0 "False" 1 "True" ;
-VAL_ 1285 ZCUF_CBV_ActWakeBit_4 0 "No" 1 "Yes" ;
-VAL_ 1285 ZCUF_CBV_PNIBit_6 0 "No" 1 "Yes" ;
-VAL_ 1285 ZCUF_UDB_0 255 "NotAvailabe" ;
-VAL_ 1285 ZCUF_UDB1_BStoRM_StBit_0 0 "No" 1 "Yes" ;
-VAL_ 1285 ZCUF_UDB1_PBStoRM_StBit1 0 "No" 1 "Yes" ;
-VAL_ 1285 ZCUF_UDB1_RMtoNO_StBit_2 0 "No" 1 "Yes" ;
-VAL_ 1285 ZCUF_UDB1_RStoNO_StBit_3 0 "No" 1 "Yes" ;
-VAL_ 1285 ZCUF_UDB1_RStoRM_StBit_4 0 "No" 1 "Yes" ;
-VAL_ 1285 ZCUF_UDB1_NOtoRM_StBit_5 0 "No" 1 "Yes" ;
-VAL_ 1285 ZCUF_UDB1_NO_StBit_6 0 "No" 1 "Yes" ;
-VAL_ 1285 ZCUF_UDB1_RM_StBit_7 0 "No" 1 "Yes" ;
-VAL_ 1285 ZCUF_UDB2_IGN_WUPBit_0 0 "Inactive" 1 "Active" ;
-VAL_ 1285 ZCUF_UDB2_RESET_WUPBit_1 0 "Inactive" 1 "Active" ;
-VAL_ 1285 ZCUF_UDB2_NM_WUPBit_2 0 "Inactive" 1 "Active" ;
-VAL_ 1285 ZCUF_UDB2_ECUSPEC_WUPBit_3 0 "Inactive" 1 "Active" ;
-VAL_ 1285 ZCUF_UDB2_NM_AWAKEBit_4 0 "Inactive" 1 "Active" ;
-VAL_ 1285 ZCUF_UDB2_IGN_AWAKEBit_5 0 "Inactive" 1 "Active" ;
-VAL_ 1285 ZCUF_UDB2_DIAG_AWAKEBit_6 0 "Inactive" 1 "Active" ;
-VAL_ 1285 ZCUF_UDB2_ECUSPEC_AWKEBit7 0 "Inactive" 1 "Active" ;
 VAL_ 1411 Kle_NfcCcCardVldtn_St_Warn 0 "No_Warning" 1 "Warning" 2 "Reserved" 3 "NotAvailable" ;
 VAL_ 1412 Acchg_ChgGunUnlckWarn 0 "No_Warning" 1 "Warning" 2 "Reserved" 3 "NotAvailable" ;
 VAL_ 1412 Hvsco_HV_SysWarn 0 "No_Warning" 1 "Warning" 2 "Reserved" 3 "NotAvailable" ;

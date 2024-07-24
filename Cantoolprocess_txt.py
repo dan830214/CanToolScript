@@ -4,7 +4,7 @@ import re
 global_workspacename = "I1_CAN_FD_VER02_01_01_MY_ECU_2"
 special_strings = ["CRC", "ZCUF", "CL30", "CL15", "DCFC", "BMS", "CCu", "ACM", "ASU", "ADAS", "FL", "FR", "RR", "RL", "CCU", "DCDC", "DCMD", "DCMP", "DCMRL", "DCMRR",\
                     "EBCM", "EPS", "HDLML", "HDLMR", "RWA", "SFA", "MCU", "MFS", "PSMD", "PSMP", "RLML", "RLMR", "RWSM", "SBM", "SLMFC", "SLMFL", "SLMFR", "SLMRC",\
-                    "TBOX", "LV", "TLML", "TLMR", "VCU", "ZCUF", "TLG", "HV", "ACT", "EPB", "ZCUR"]
+                    "TBOX", "LV", "TLML", "TLMR", "VCU", "ZCUF", "TLG", "HV", "ACT", "EPB", "ZCUR", "RLMR", "RLML", "IVI"]
 global_msg_name = ""
 
 def process_line1(line):
@@ -75,7 +75,7 @@ if ({global_workspacename.lower()}_{msg_name.lower()}_pack(dataArray, &{msg_name
     memcpy(&u8arrayTx[INDEX_CAN_DATA], dataArray, {global_workspacename}_{msg_name.upper()}_LENGTH);
     
 uint32 crc_sum;
-crc_sum = FlexCanApp_Calc_Crc32_test(&u8arrayTx, {global_workspacename}_{msg_name.upper()}_LENGTH + 18, 0);
+crc_sum = FlexCanApp_Calc_Crc32_test(&u8arrayTx, u8arrayTx[INDEX_APSS_LEN], 0);
 u8arrayTx[{global_workspacename}_{msg_name.upper()}_LENGTH + INDEX_CAN_DATA] = (uint8_t)((crc_sum & 0xFF000000) >> 24);
 u8arrayTx[{global_workspacename}_{msg_name.upper()}_LENGTH + INDEX_CAN_DATA + 1] = (uint8_t)((crc_sum & 0x00FF0000) >> 16);
 u8arrayTx[{global_workspacename}_{msg_name.upper()}_LENGTH + INDEX_CAN_DATA + 2] = (uint8_t)((crc_sum & 0x0000FF00) >> 8);
